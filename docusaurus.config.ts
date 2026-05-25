@@ -17,12 +17,12 @@ const config: Config = {
   url: "https://t-skt.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/touhouwiki-kr/",
+  baseUrl: "/twiki/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "t-skt", // Usually your GitHub org/user name.
-  projectName: "touhouwiki-kr", // Usually your repo name.
+  projectName: "twiki", // Usually your repo name.
   trailingSlash: false,
 
   onBrokenLinks: "throw",
@@ -84,7 +84,7 @@ const config: Config = {
           },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/t-skt/touhouwiki-kr/tree/main/",
+          editUrl: "https://github.com/t-skt/twiki/tree/main/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -110,19 +110,7 @@ const config: Config = {
           label: "게임",
         },
         {
-          type: "docSidebar",
-          sidebarId: "musicSidebar",
-          position: "left",
-          label: "음악",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "toySidebar",
-          position: "left",
-          label: "장난감",
-        },
-        {
-          href: "https://github.com/t-skt/touhouwiki-kr",
+          href: "https://github.com/t-skt/twiki",
           label: "GitHub",
           position: "right",
         },
