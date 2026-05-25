@@ -40,6 +40,24 @@ twiki/
 - `docs/**/*.mdx` 직접 편집 금지 — `tdata/scripts/generate.py`가 덮어쓴다
 - 인터랙티브 장난감/게임은 [`t-skt/tvirus`](https://github.com/t-skt/tvirus)에 있음
 
+## 개발 워크플로
+
+새 게임/캐릭터 추가:
+1. `cd ~/git/tdata && python -m scripts.generate --game th06`
+2. `~/git/twiki/`에 자동 생성된 docs/ + tdata.lock을 함께 staged
+3. pre-commit hook이 docs/ ↔ tdata.lock 일관성 검증
+4. `git commit -m "..."` 통과 후 push
+
+| 케이스 | staged 내용 | 결과 |
+|--------|------------|------|
+| (a) | `docs/{shooting,fighting,side}/` 만 | 차단 |
+| (b) | `docs/_manual/` 만 | 통과 |
+| (c) | `tdata.lock` 만 | 차단 |
+| (d) | generated docs + tdata.lock | 통과 |
+| (e) | manual docs + tdata.lock | 통과 |
+
+긴급 hotfix 시 `git commit --no-verify` 사용 가능 (사용 자제).
+
 ## 라이선스
 
 Copyleft @ Team SKT
