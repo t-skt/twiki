@@ -124,7 +124,7 @@ const config: Config = {
           items: [
             {
               label: "동방",
-              to: "/docs/intro",
+              to: "/docs/shooting/embodiment-of-scarlet-devil/intro",
             },
           ],
         },
