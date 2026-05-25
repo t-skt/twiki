@@ -29,3 +29,6 @@ Thumbs.db
 
 # OMC session state (claude-code orchestration layer)
 .omc/
+
+# Serena MCP cache (touhouwiki-kr 잔재)
+.serena/
