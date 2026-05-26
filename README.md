@@ -60,4 +60,9 @@ twiki/
 
 ## 라이선스
 
-Copyleft @ Team SKT
+이미지: ZUN/Team Shanghai Alice ([LICENSE-IMAGES.md](LICENSE-IMAGES.md) 참조).
+
+## 관련 레포
+
+- 데이터 소스: [t-skt/tdata](https://github.com/t-skt/tdata)
+- 인터랙티브 장난감: [t-skt/tvirus](https://github.com/t-skt/tvirus)
