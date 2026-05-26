@@ -1,5 +1,5 @@
 {
-  "commit": "886de070dee2",
+  "commit": "8f100618d359",
   "schema_version": "1.0.0",
   "generated_at": "1970-01-01T00:00:00Z",
   "sources": {
@@ -12,14 +12,14 @@
       "license": "fan compilation (touhou_normalized_v2)"
     },
     "manual": {
-      "cache_key": "sha256:3de7bb2772910d62",
+      "cache_key": "sha256:ee8827d23cb371db",
       "license": "user-provided"
     }
   },
   "entity_counts": {
-    "games": 15,
-    "characters": 180,
-    "albums": 15,
+    "games": 28,
+    "characters": 302,
+    "albums": 28,
     "tracks": 272,
     "books": 0
   }
