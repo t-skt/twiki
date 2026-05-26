@@ -1,5 +1,5 @@
 {
-  "commit": "8f100618d359",
+  "commit": "f2dab18e6974",
   "schema_version": "1.0.0",
   "generated_at": "1970-01-01T00:00:00Z",
   "sources": {
@@ -12,7 +12,7 @@
       "license": "fan compilation (touhou_normalized_v2)"
     },
     "manual": {
-      "cache_key": "sha256:de7499d223539659",
+      "cache_key": "sha256:0d7246c0ea977a1b",
       "license": "user-provided"
     }
   },
