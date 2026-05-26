@@ -1,22 +1,30 @@
 import React from 'react';
 
 interface MusicTrackProps {
-  number?: string;
-  title: string;
+  name: string;
+  trackNumber: number;
+  nameJp?: string;
+  nameEn?: string;
   originalTitle?: string;
   composer?: string;
   themeColor?: string;
+  zunComment?: string;
   children?: React.ReactNode;
 }
 
 const MusicTrack: React.FC<MusicTrackProps> = ({
-  number,
-  title,
+  name,
+  trackNumber,
+  nameJp,
+  nameEn,
   originalTitle,
   composer = 'ZUN',
   themeColor = 'var(--ifm-color-primary)',
+  zunComment,
   children
 }) => {
+  const numberStr = String(trackNumber).padStart(2, '0');
+
   return (
     <div style={{
       display: 'flex',
@@ -41,7 +49,7 @@ const MusicTrack: React.FC<MusicTrackProps> = ({
         fontSize: '1.1rem',
         fontFamily: 'var(--ifm-font-family-monospace)'
       }}>
-        {number ? number.padStart(2, '0') : '♪'}
+        {numberStr}
       </div>
 
       <div style={{
@@ -62,15 +70,24 @@ const MusicTrack: React.FC<MusicTrackProps> = ({
           gap: '0.6rem',
           flexWrap: 'wrap'
         }}>
-          <span style={{ fontSize: '1.1rem' }}>{title}</span>
-          {originalTitle && (
-            <span style={{ 
-              fontWeight: 'normal', 
-              opacity: 0.7, 
+          <span style={{ fontSize: '1.1rem' }}>{name}</span>
+          {(nameJp || nameEn) && (
+            <span style={{
+              fontWeight: 'normal',
+              opacity: 0.7,
               fontSize: '0.85rem',
               fontStyle: 'italic'
             }}>
-              {originalTitle}
+              {nameJp}{nameJp && nameEn ? ' · ' : ''}{nameEn}
+            </span>
+          )}
+          {originalTitle && (
+            <span style={{
+              fontWeight: 'normal',
+              opacity: 0.7,
+              fontSize: '0.8rem'
+            }}>
+              원곡: {originalTitle}
             </span>
           )}
         </div>
@@ -90,19 +107,29 @@ const MusicTrack: React.FC<MusicTrackProps> = ({
           <div style={{
             fontSize: '0.8rem',
             color: 'var(--ifm-color-emphasis-600)',
-            marginBottom: children ? '0.75rem' : '0',
+            marginBottom: (zunComment || children) ? '0.75rem' : '0',
             display: 'flex',
             justifyContent: 'space-between',
-            borderBottom: children ? '1px solid var(--ifm-color-emphasis-200)' : 'none',
-            paddingBottom: children ? '0.5rem' : '0'
+            borderBottom: (zunComment || children) ? '1px solid var(--ifm-color-emphasis-200)' : 'none',
+            paddingBottom: (zunComment || children) ? '0.5rem' : '0'
           }}>
             <span>작곡: {composer}</span>
           </div>
+          {zunComment && (
+            <div style={{
+              fontSize: '0.95rem',
+              lineHeight: '1.6',
+              whiteSpace: 'pre-wrap'
+            }}>
+              {zunComment}
+            </div>
+          )}
           {children && (
             <div style={{
               fontSize: '0.95rem',
               lineHeight: '1.5',
-              whiteSpace: 'pre-wrap'
+              whiteSpace: 'pre-wrap',
+              marginTop: zunComment ? '0.75rem' : '0'
             }}>
               {children}
             </div>

@@ -2,8 +2,8 @@ import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 interface CharacterProfileProps {
-  name: string;
-  nameJa?: string;
+  nameKr: string;
+  nameJp?: string;
   nameEn?: string;
   title?: string;
   stage?: string;
@@ -13,7 +13,8 @@ interface CharacterProfileProps {
   personality?: string;
   themeColor?: string;
   image?: string;
-  children: React.ReactNode;
+  zunComment?: string;
+  children?: React.ReactNode;
 }
 
 const InfoBadge: React.FC<{ label: string; value?: string; color: string }> = ({ label, value, color }) => {
@@ -29,9 +30,9 @@ const InfoBadge: React.FC<{ label: string; value?: string; color: string }> = ({
       boxShadow: '0 2px 8px rgba(0,0,0,0.04)',
       flex: '1 1 200px'
     }}>
-      <span style={{ 
-        fontSize: '0.7rem', 
-        fontWeight: 'bold', 
+      <span style={{
+        fontSize: '0.7rem',
+        fontWeight: 'bold',
         color: 'var(--ifm-color-emphasis-600)',
         textTransform: 'uppercase',
         letterSpacing: '1px',
@@ -39,8 +40,8 @@ const InfoBadge: React.FC<{ label: string; value?: string; color: string }> = ({
       }}>
         {label}
       </span>
-      <span style={{ 
-        fontSize: '0.95rem', 
+      <span style={{
+        fontSize: '0.95rem',
         color: 'var(--ifm-color-emphasis-900)',
         lineHeight: '1.5',
         fontWeight: '500'
@@ -52,8 +53,8 @@ const InfoBadge: React.FC<{ label: string; value?: string; color: string }> = ({
 };
 
 interface HeroBannerProps {
-  name: string;
-  nameJa?: string;
+  nameKr: string;
+  nameJp?: string;
   nameEn?: string;
   title?: string;
   stage?: string;
@@ -66,8 +67,8 @@ interface HeroBannerProps {
 }
 
 const HeroBanner: React.FC<HeroBannerProps> = ({
-  name,
-  nameJa,
+  nameKr,
+  nameJp,
   nameEn,
   title,
   stage,
@@ -131,7 +132,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
         lineHeight: '1.2',
         letterSpacing: '-1px'
       }}>
-        {name}
+        {nameKr}
       </h2>
 
       <div style={{
@@ -140,9 +141,9 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
         gap: '0.5rem',
         marginBottom: '1.5rem'
       }}>
-        {(nameJa || nameEn) && (
+        {(nameJp || nameEn) && (
           <div style={{ fontSize: '0.9rem', color: 'var(--ifm-color-emphasis-600)', opacity: 0.8 }}>
-            {nameJa} {nameEn && `· ${nameEn}`}
+            {nameJp}{nameJp && nameEn ? ' · ' : ''}{nameEn}
           </div>
         )}
 
@@ -185,7 +186,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
       }}>
         <img
           src={imageSrc}
-          alt={name}
+          alt={nameKr}
           style={{
             width: '100%',
             maxWidth: '350px',
@@ -203,8 +204,8 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 );
 
 const CharacterProfile: React.FC<CharacterProfileProps> = ({
-  name,
-  nameJa,
+  nameKr,
+  nameJp,
   nameEn,
   title,
   stage,
@@ -214,6 +215,7 @@ const CharacterProfile: React.FC<CharacterProfileProps> = ({
   personality,
   themeColor = 'var(--ifm-color-primary)',
   image,
+  zunComment,
   children
 }) => {
   const resolvedImage = useBaseUrl(image || '');
@@ -226,8 +228,8 @@ const CharacterProfile: React.FC<CharacterProfileProps> = ({
       marginTop: '1rem',
     }}>
       <HeroBanner
-        name={name}
-        nameJa={nameJa}
+        nameKr={nameKr}
+        nameJp={nameJp}
         nameEn={nameEn}
         title={title}
         stage={stage}
@@ -239,17 +241,35 @@ const CharacterProfile: React.FC<CharacterProfileProps> = ({
         imageSrc={image ? resolvedImage : undefined}
       />
 
-      {/* Detail Content Area */}
-      <div style={{ padding: '0 1rem' }}>
+      {/* ZUN Comment Block */}
+      {zunComment && (
         <div style={{
-          fontSize: '1.05rem',
-          lineHeight: '1.85',
-          color: 'var(--ifm-color-emphasis-900)',
-          textAlign: 'justify'
+          padding: '1.5rem 1.75rem',
+          backgroundColor: 'var(--ifm-color-emphasis-100)',
+          borderRadius: '14px',
+          borderLeft: `4px solid ${themeColor}`,
+          fontSize: '0.95rem',
+          lineHeight: '1.7',
+          whiteSpace: 'pre-wrap',
+          color: 'var(--ifm-color-emphasis-800)'
         }}>
-          {children}
+          {zunComment}
         </div>
-      </div>
+      )}
+
+      {/* Detail Content Area */}
+      {children && (
+        <div style={{ padding: '0 1rem' }}>
+          <div style={{
+            fontSize: '1.05rem',
+            lineHeight: '1.85',
+            color: 'var(--ifm-color-emphasis-900)',
+            textAlign: 'justify'
+          }}>
+            {children}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
