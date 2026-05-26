@@ -22,14 +22,12 @@ const lockChanged = staged.some(isLock);
 
 // 케이스 분기
 if (generatedDocsChanged && !lockChanged) {
-  console.error("[tdata-lock-coupling] ERROR: docs/{shooting,fighting,side}/ 변경에 tdata.lock 누락");
-  console.error("  → cd ../tdata && python -m scripts.generate --game <game> 후 ../twiki에 tdata.lock도 함께 staged 필요");
+  process.stderr.write("[tdata-lock-coupling] ERROR: docs/{shooting,fighting,side}/ 변경 시 tdata.lock도 함께 커밋되어야 합니다 (regen 일관성)\n");
   process.exit(1);
 }
 
 if (lockChanged && !generatedDocsChanged && !manualDocsChanged) {
-  console.error("[tdata-lock-coupling] ERROR: tdata.lock만 staged");
-  console.error("  → docs/ 변경 동반 필요. tdata.lock 단독 변경 금지.");
+  process.stderr.write("[tdata-lock-coupling] ERROR: tdata.lock만 staged. docs/ 변경 없이 lock만 갱신할 수 없습니다\n");
   process.exit(1);
 }
 
