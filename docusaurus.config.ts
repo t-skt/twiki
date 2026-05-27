@@ -180,28 +180,53 @@ const config: Config = {
       ],
     },
     footer: {
-      style: "dark",
+      style: "light",
       links: [
         {
-          title: "Docs",
+          title: "데이터 출처",
           items: [
             {
-              label: "동방",
-              to: "/docs/shooting/embodiment-of-scarlet-devil/intro",
+              label: "Touhou Patch Center (CC BY-SA 4.0)",
+              href: "https://www.thpatch.net/",
+            },
+            {
+              label: "원본 위키 (touhouwiki-kr)",
+              href: "https://github.com/wealthygogi/touhouwiki-kr",
             },
           ],
         },
         {
-          title: "Editor",
+          title: "레포지토리",
           items: [
             {
-              label: "X",
-              href: "https://x.com/wealthygogi",
+              label: "t-skt/twiki",
+              href: "https://github.com/t-skt/twiki",
+            },
+            {
+              label: "t-skt/tdata (SSOT)",
+              href: "https://github.com/t-skt/tdata",
+            },
+            {
+              label: "t-skt/tvirus (장난감)",
+              href: "https://github.com/t-skt/tvirus",
+            },
+          ],
+        },
+        {
+          title: "라이선스",
+          items: [
+            {
+              label: "이미지 저작권: ZUN / Team Shanghai Alice",
+              to: "/license",
+            },
+            {
+              label: "CC BY-SA 4.0",
+              href: "https://creativecommons.org/licenses/by-sa/4.0/",
             },
           ],
         },
       ],
-      copyright: `Copyleft © ${new Date().getFullYear()} @wealthygogi. Built with Docusaurus.`,
+      copyright: `Copyleft © ${new Date().getFullYear()} @wealthygogi. 동방 프로젝트 © 上海アリス幻樂団 / ZUN. 텍스트 콘텐츠 CC BY-SA 4.0.`,
     },
     prism: {
       theme: prismThemes.github,
