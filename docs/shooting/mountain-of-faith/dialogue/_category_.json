@@ -1,0 +1,10 @@
+{
+  "label": "대사집",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "shooting/mountain-of-faith/dialogue/overview"
+  },
+  "collapsible": true,
+  "collapsed": false
+}

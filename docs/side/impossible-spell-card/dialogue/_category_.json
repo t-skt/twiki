@@ -1,0 +1,10 @@
+{
+  "label": "대사집",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "side/impossible-spell-card/dialogue/overview"
+  },
+  "collapsible": true,
+  "collapsed": false
+}
