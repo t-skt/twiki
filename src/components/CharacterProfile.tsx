@@ -2,8 +2,13 @@ import React from 'react';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 interface CharacterProfileProps {
-  nameKr: string;
+  // twiki standard
+  nameKr?: string;
   nameJp?: string;
+  // v3 original compat aliases
+  name?: string;   // → nameKr fallback
+  nameJa?: string; // → nameJp fallback
+
   nameEn?: string;
   title?: string;
   stage?: string;
@@ -12,7 +17,8 @@ interface CharacterProfileProps {
   location?: string;
   personality?: string;
   themeColor?: string;
-  image?: string;
+  // string (twiki) or webp module import (v3 original: import x from '*.webp')
+  image?: string | { src?: string; default?: string } | object;
   zunComment?: string;
   children?: React.ReactNode;
 }
@@ -206,6 +212,8 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
 const CharacterProfile: React.FC<CharacterProfileProps> = ({
   nameKr,
   nameJp,
+  name,
+  nameJa,
   nameEn,
   title,
   stage,
@@ -218,7 +226,15 @@ const CharacterProfile: React.FC<CharacterProfileProps> = ({
   zunComment,
   children
 }) => {
-  const resolvedImage = useBaseUrl(image || '');
+  const resolvedNameKr = nameKr || name || '';
+  const resolvedNameJp = nameJp || nameJa;
+  // image may be a webp module import ({ default: url } or { src: url }) or a plain string
+  const imageStr = typeof image === 'string'
+    ? image
+    : (image as { src?: string; default?: string } | undefined)?.src
+      ?? (image as { src?: string; default?: string } | undefined)?.default
+      ?? '';
+  const resolvedImage = useBaseUrl(imageStr);
   return (
     <div style={{
       display: 'flex',
@@ -228,8 +244,8 @@ const CharacterProfile: React.FC<CharacterProfileProps> = ({
       marginTop: '1rem',
     }}>
       <HeroBanner
-        nameKr={nameKr}
-        nameJp={nameJp}
+        nameKr={resolvedNameKr}
+        nameJp={resolvedNameJp}
         nameEn={nameEn}
         title={title}
         stage={stage}
@@ -238,7 +254,7 @@ const CharacterProfile: React.FC<CharacterProfileProps> = ({
         location={location}
         personality={personality}
         themeColor={themeColor}
-        imageSrc={image ? resolvedImage : undefined}
+        imageSrc={imageStr ? resolvedImage : undefined}
       />
 
       {/* ZUN Comment Block */}

@@ -1,10 +1,14 @@
 import React from 'react';
 
 interface MusicTrackProps {
-  name: string;
-  trackNumber: number;
+  // twiki standard
+  name?: string;
+  trackNumber?: number;
   nameJp?: string;
   nameEn?: string;
+  // v3 original compat aliases
+  title?: string;   // → name fallback
+  number?: string;  // → trackNumber fallback (original passes string e.g. "1")
   originalTitle?: string;
   composer?: string;
   themeColor?: string;
@@ -17,13 +21,17 @@ const MusicTrack: React.FC<MusicTrackProps> = ({
   trackNumber,
   nameJp,
   nameEn,
+  title,
+  number,
   originalTitle,
   composer = 'ZUN',
   themeColor = 'var(--ifm-color-primary)',
   zunComment,
   children
 }) => {
-  const numberStr = String(trackNumber).padStart(2, '0');
+  const resolvedName = name || title || '';
+  const resolvedNumber = trackNumber != null ? trackNumber : (number != null ? Number(number) : undefined);
+  const numberStr = resolvedNumber != null ? String(resolvedNumber).padStart(2, '0') : '??';
 
   return (
     <div style={{
@@ -70,7 +78,7 @@ const MusicTrack: React.FC<MusicTrackProps> = ({
           gap: '0.6rem',
           flexWrap: 'wrap'
         }}>
-          <span style={{ fontSize: '1.1rem' }}>{name}</span>
+          <span style={{ fontSize: '1.1rem' }}>{resolvedName}</span>
           {(nameJp || nameEn) && (
             <span style={{
               fontWeight: 'normal',
