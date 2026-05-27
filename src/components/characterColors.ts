@@ -132,7 +132,7 @@ export const CHARACTER_COLORS: Record<string, [number, number]> = {
   urumi_ushizaki:     [175, 45],
   kutaka_niwatari:    [15, 55],
   yachie_kicchou:     [190, 50],
-  mayumi_joutouguu:   [25, 40],
+  mayumi_joutougu:    [25, 40],
   keiki_haniyasushin: [48, 45],
   saki_kurokoma:      [350, 50],
   eagle_spirit:       [130, 45],
