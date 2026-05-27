@@ -196,19 +196,11 @@ const config: Config = {
           ],
         },
         {
-          title: "레포지토리",
+          title: "이미지 출처",
           items: [
             {
-              label: "t-skt/twiki",
-              href: "https://github.com/t-skt/twiki",
-            },
-            {
-              label: "t-skt/tdata (SSOT)",
-              href: "https://github.com/t-skt/tdata",
-            },
-            {
-              label: "t-skt/tvirus (장난감)",
-              href: "https://github.com/t-skt/tvirus",
+              label: "dairi (X: @dairi155)",
+              href: "https://x.com/dairi155/",
             },
           ],
         },
@@ -216,7 +208,7 @@ const config: Config = {
           title: "라이선스",
           items: [
             {
-              label: "이미지 저작권: ZUN / Team Shanghai Alice",
+              label: "라이선스 안내",
               to: "/license",
             },
             {
