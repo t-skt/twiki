@@ -121,6 +121,7 @@ const config: Config = {
             { label: "동방천공장 (Th16)", to: "/docs/shooting/hidden-star-in-four-seasons/intro" },
             { label: "동방귀형수 (Th17)", to: "/docs/shooting/wily-beast-and-weakest-creature/intro" },
             { label: "동방홍룡동 (Th18)", to: "/docs/shooting/unconnected-marketeers/intro" },
+            { label: "동방수왕원 (Th19)", to: "/docs/shooting/unfinished-dream-of-all-living-ghost/intro" },
             { label: "동방금상경 (Th20)", to: "/docs/shooting/fossilized-wonders/intro" },
           ],
         },
@@ -136,7 +137,6 @@ const config: Config = {
             { label: "동방심비록 (Th145)", to: "/docs/fighting/urban-legend-in-limbo/intro" },
             { label: "동방빙의화 (Th155)", to: "/docs/fighting/antinomy-of-common-flowers/intro" },
             { label: "동방강욕이문 (Th175)", to: "/docs/fighting/touhou-gouyoku-ibun/intro" },
-            { label: "동방수왕원 (Th19)", to: "/docs/fighting/unfinished-dream-of-all-living-ghost/intro" },
           ],
         },
         {

@@ -19,6 +19,7 @@ const shooting: Game[] = [
   { slug: "hidden-star-in-four-seasons", kr: "동방천공장", code: "Th16" },
   { slug: "wily-beast-and-weakest-creature", kr: "동방귀형수", code: "Th17" },
   { slug: "unconnected-marketeers", kr: "동방홍룡동", code: "Th18" },
+  { slug: "unfinished-dream-of-all-living-ghost", kr: "동방수왕원", code: "Th19" },
   { slug: "fossilized-wonders", kr: "동방금상경", code: "Th20" },
 ];
 
@@ -30,7 +31,6 @@ const fighting: Game[] = [
   { slug: "urban-legend-in-limbo", kr: "동방심비록", code: "Th145" },
   { slug: "antinomy-of-common-flowers", kr: "동방빙의화", code: "Th155" },
   { slug: "touhou-gouyoku-ibun", kr: "동방강욕이문", code: "Th175" },
-  { slug: "unfinished-dream-of-all-living-ghost", kr: "동방수왕원", code: "Th19" },
 ];
 
 const side: Game[] = [
