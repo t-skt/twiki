@@ -1,0 +1,4484 @@
+{
+  "games": [
+    {
+      "code": "th06",
+      "slug": "embodiment-of-scarlet-devil",
+      "category": "shooting",
+      "nameKo": "동방홍마향 ~ the Embodiment of Scarlet Devil",
+      "nameEn": "Touhou Koumakyou ~ the Embodiment of Scarlet Devil",
+      "nameJa": "東方紅魔郷 ~ the Embodiment of Scarlet Devil",
+      "releaseDate": "2002-08-11",
+      "year": 2002,
+      "charCount": 11,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th07",
+      "slug": "perfect-cherry-blossom",
+      "category": "shooting",
+      "nameKo": "동방요요몽 ~ Perfect Cherry Blossom",
+      "nameEn": "Touhou Youyoumu ~ Perfect Cherry Blossom",
+      "nameJa": "東方妖々夢 ~ Perfect Cherry Blossom",
+      "releaseDate": "2003-08-17",
+      "year": 2003,
+      "charCount": 15,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th08",
+      "slug": "imperishable-night",
+      "category": "shooting",
+      "nameKo": "동방영야초 ~ Imperishable Night",
+      "nameEn": "Touhou Eiyashou ~ Imperishable Night",
+      "nameJa": "東方永夜抄 ~ Imperishable Night",
+      "releaseDate": "2004-08-15",
+      "year": 2004,
+      "charCount": 16,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th09",
+      "slug": "phantasmagoria-of-flower-view",
+      "category": "shooting",
+      "nameKo": "동방화영총",
+      "nameEn": "Touhou Kaeidzuka ~ Phantasmagoria of Flower View",
+      "nameJa": "東方花映塚 ~ Phantasmagoria of Flower View",
+      "releaseDate": "2005-08-14",
+      "year": 2005,
+      "charCount": 16,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th10",
+      "slug": "mountain-of-faith",
+      "category": "shooting",
+      "nameKo": "동방풍신록 ~ Mountain of Faith",
+      "nameEn": "Touhou Fuujinroku ~ Mountain of Faith",
+      "nameJa": "東方風神録 ~ Mountain of Faith",
+      "releaseDate": "2007-08-17",
+      "year": 2007,
+      "charCount": 11,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th11",
+      "slug": "subterranean-animism",
+      "category": "shooting",
+      "nameKo": "동방지령전 ~ Subterranean Animism",
+      "nameEn": "Touhou Chireiden ~ Subterranean Animism",
+      "nameJa": "東方地霊殿 ~ Subterranean Animism",
+      "releaseDate": "2008-08-16",
+      "year": 2008,
+      "charCount": 16,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th12",
+      "slug": "undefined-fantastic-object",
+      "category": "shooting",
+      "nameKo": "동방성련선 ~ Undefined Fantastic Object",
+      "nameEn": "Touhou Seirensen ~ Undefined Fantastic Object",
+      "nameJa": "東方星蓮船 ~ Undefined Fantastic Object",
+      "releaseDate": "2009-08-15",
+      "year": 2009,
+      "charCount": 10,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th13",
+      "slug": "ten-desires",
+      "category": "shooting",
+      "nameKo": "동방신령묘 ~ Ten Desires",
+      "nameEn": "Touhou Shinreibyou ~ Ten Desires",
+      "nameJa": "東方神霊廟 ~ Ten Desires",
+      "releaseDate": "2011-08-13",
+      "year": 2011,
+      "charCount": 14,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th14",
+      "slug": "double-dealing-character",
+      "category": "shooting",
+      "nameKo": "동방휘침성 ~ Double Dealing Character",
+      "nameEn": "Touhou Kishinjou ~ Double Dealing Character",
+      "nameJa": "東方輝針城 ~ Double Dealing Character",
+      "releaseDate": "2013-08-12",
+      "year": 2013,
+      "charCount": 12,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th15",
+      "slug": "legacy-of-lunatic-kingdom",
+      "category": "shooting",
+      "nameKo": "동방감주전 ~ Legacy of Lunatic Kingdom",
+      "nameEn": "Touhou Kanjuden ~ Legacy of Lunatic Kingdom",
+      "nameJa": "東方紺珠伝 ~ Legacy of Lunatic Kingdom",
+      "releaseDate": "2015-08-14",
+      "year": 2015,
+      "charCount": 11,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th16",
+      "slug": "hidden-star-in-four-seasons",
+      "category": "shooting",
+      "nameKo": "동방천공장 ~ Hidden Star in Four Seasons",
+      "nameEn": "Touhou Tenkuushou ~ Hidden Star in Four Seasons",
+      "nameJa": "東方天空璋 ~ Hidden Star in Four Seasons",
+      "releaseDate": "2017-08-11",
+      "year": 2017,
+      "charCount": 11,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th17",
+      "slug": "wily-beast-and-weakest-creature",
+      "category": "shooting",
+      "nameKo": "동방귀형수 ~ Wily Beast and Weakest Creature",
+      "nameEn": "Touhou Kikeijuu ~ Wily Beast and Weakest Creature",
+      "nameJa": "東方鬼形獣 ~ Wily Beast and Weakest Creature",
+      "releaseDate": "2019-05-05",
+      "year": 2019,
+      "charCount": 10,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th18",
+      "slug": "unconnected-marketeers",
+      "category": "shooting",
+      "nameKo": "동방홍룡동 ~ Unconnected Marketeers",
+      "nameEn": "Touhou Kouryuudou ~ Unconnected Marketeers",
+      "nameJa": "東方虹龍洞 ~ Unconnected Marketeers",
+      "releaseDate": "2021-05-04",
+      "year": 2021,
+      "charCount": 12,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th19",
+      "slug": "unfinished-dream-of-all-living-ghost",
+      "category": "shooting",
+      "nameKo": "동방수왕원 ~ Unfinished Dream of All Living Ghost",
+      "nameEn": "Touhou Juuouen ~ Unfinished Dream of All Living Ghost",
+      "nameJa": "東方獣王園 ~ Unfinished Dream of All Living Ghost",
+      "releaseDate": "2024-08-12",
+      "year": 2024,
+      "charCount": 5,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th20",
+      "slug": "fossilized-wonders",
+      "category": "shooting",
+      "nameKo": "동방금상경 ~ Fossilized Wonders",
+      "nameEn": "Touhou Kinjouken ~ Fossilized Wonders",
+      "nameJa": "東方錦上京 ~ Fossilized Wonders",
+      "releaseDate": "2025-05-04",
+      "year": 2025,
+      "charCount": 9,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th075",
+      "slug": "immaterial-and-missing-power",
+      "category": "fighting",
+      "nameKo": "동방췌몽상 ~ Immaterial and Missing Power",
+      "nameEn": "Touhou Suimusou ~ Immaterial and Missing Power",
+      "nameJa": "東方萃夢想 ~ Immaterial and Missing Power",
+      "releaseDate": "2004-12-30",
+      "year": 2004,
+      "charCount": 10,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th105",
+      "slug": "scarlet-weather-rhapsody",
+      "category": "fighting",
+      "nameKo": "동방비상천 ~ Scarlet Weather Rhapsody",
+      "nameEn": "Touhou Hisouten ~ Scarlet Weather Rhapsody",
+      "nameJa": "東方緋想天 ~ Scarlet Weather Rhapsody",
+      "releaseDate": "2008-05-25",
+      "year": 2008,
+      "charCount": 5,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th123",
+      "slug": "hisoutensoku",
+      "category": "fighting",
+      "nameKo": "동방비상천칙 ~ Touhou Hisoutensoku",
+      "nameEn": "Touhou Hisoutensoku ~ Chouyoku no Nensha Tai",
+      "nameJa": "東方非想天則 ~ Touhou Hisoutensoku",
+      "releaseDate": "2009-08-15",
+      "year": 2009,
+      "charCount": 0,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th135",
+      "slug": "hopeless-masquerade",
+      "category": "fighting",
+      "nameKo": "동방심기루 ~ Hopeless Masquerade",
+      "nameEn": "Touhou Shinkirou ~ Hopeless Masquerade",
+      "nameJa": "東方心綺楼 ~ Hopeless Masquerade",
+      "releaseDate": "2013-05-26",
+      "year": 2013,
+      "charCount": 1,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th145",
+      "slug": "urban-legend-in-limbo",
+      "category": "fighting",
+      "nameKo": "동방심비록 ~ Urban Legend in Limbo",
+      "nameEn": "Touhou Shinpiroku ~ Urban Legend in Limbo",
+      "nameJa": "東方深秘録 ~ Urban Legend in Limbo",
+      "releaseDate": "2015-05-10",
+      "year": 2015,
+      "charCount": 1,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th155",
+      "slug": "antinomy-of-common-flowers",
+      "category": "fighting",
+      "nameKo": "동방빙의화 ~ Antinomy of Common Flowers",
+      "nameEn": "Touhou Hyouibana ~ Antinomy of Common Flowers",
+      "nameJa": "東方憑依華 ~ Antinomy of Common Flowers",
+      "releaseDate": "2017-12-29",
+      "year": 2017,
+      "charCount": 2,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th175",
+      "slug": "touhou-gouyoku-ibun",
+      "category": "fighting",
+      "nameKo": "동방강욕이문",
+      "nameEn": "Touhou Gouyoku Ibun ~ Sunken Fossil World",
+      "nameJa": "東方剛欲異聞 ~ 水没した沈愁地獄",
+      "releaseDate": "2022-05-08",
+      "year": 2022,
+      "charCount": 1,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th095",
+      "slug": "shoot-the-bullet",
+      "category": "side",
+      "nameKo": "동방문화첩 ~ Shoot the Bullet",
+      "nameEn": "Touhou Bunkachou ~ Shoot the Bullet",
+      "nameJa": "東方文花帖 ~ Shoot the Bullet",
+      "releaseDate": "2005-12-30",
+      "year": 2005,
+      "charCount": 0,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th125",
+      "slug": "double-spoiler",
+      "category": "side",
+      "nameKo": "더블 스포일러",
+      "nameEn": "Double Spoiler ~ Touhou Bunkachou",
+      "nameJa": "ダブルスポイラー ~ 東方文花帖",
+      "releaseDate": "2010-03-14",
+      "year": 2010,
+      "charCount": 1,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th128",
+      "slug": "great-fairy-wars",
+      "category": "side",
+      "nameKo": "요정대전쟁",
+      "nameEn": "Fairy Wars ~ Touhou Sangetsusei",
+      "nameJa": "妖精大戦争 ~ 東方三月精",
+      "releaseDate": "2010-08-14",
+      "year": 2010,
+      "charCount": 3,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th143",
+      "slug": "impossible-spell-card",
+      "category": "side",
+      "nameKo": "탄막 아마노자쿠 ~ Impossible Spell Card",
+      "nameEn": "Danmaku Amanojaku ~ Impossible Spell Card",
+      "nameJa": "弾幕アマノジャク ~ Impossible Spell Card",
+      "releaseDate": "2014-12-29",
+      "year": 2014,
+      "charCount": 1,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th165",
+      "slug": "violet-detector",
+      "category": "side",
+      "nameKo": "비봉 나이트메어 다이어리 ~ Violet Detector",
+      "nameEn": "Hifuu Nightmare Diary ~ Violet Detector",
+      "nameJa": "秘封ナイトメアダイアリー ~ Violet Detector",
+      "releaseDate": "2018-08-10",
+      "year": 2018,
+      "charCount": 0,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    },
+    {
+      "code": "th185",
+      "slug": "bullet-filia",
+      "category": "side",
+      "nameKo": "불릿필리아들의 암시장 ~ 100th Black Market",
+      "nameEn": "Bullet Filia's Black Market ~ 100th Black Market",
+      "nameJa": "バレットフィリア達の闇市場 ~ 100th Black Market",
+      "releaseDate": "2023-08-13",
+      "year": 2023,
+      "charCount": 0,
+      "hasDialogue": true,
+      "hasSpellCards": true,
+      "hasMusic": true
+    }
+  ],
+  "albums": [
+    {
+      "slug": "dolls-in-pseudo-paradise",
+      "titleKo": "봉래인형",
+      "titleEn": "Dolls in Pseudo Paradise",
+      "pos": 1
+    },
+    {
+      "slug": "ghostly-field-club",
+      "titleKo": "렌다이노 야행",
+      "titleEn": "Ghostly Field Club",
+      "pos": 2
+    },
+    {
+      "slug": "changeability-of-strange-dream",
+      "titleKo": "몽위과학세기",
+      "titleEn": "Changeability of Strange Dream",
+      "pos": 3
+    },
+    {
+      "slug": "retrospective-53-minutes",
+      "titleKo": "묘유동해도",
+      "titleEn": "Retrospective 53 minutes",
+      "pos": 4
+    },
+    {
+      "slug": "magical-astronomy",
+      "titleKo": "대공마술",
+      "titleEn": "Magical Astronomy",
+      "pos": 5
+    },
+    {
+      "slug": "unknown-flower-mesmerizing-journey",
+      "titleKo": "미지의 꽃 매지의 여행",
+      "titleEn": null,
+      "pos": 6
+    },
+    {
+      "slug": "trojan-green-asteroid",
+      "titleKo": "토리후네 유적",
+      "titleEn": "Trojan Green Asteroid",
+      "pos": 7
+    },
+    {
+      "slug": "neo-traditionalism-of-japan",
+      "titleKo": "이자나기 물질",
+      "titleEn": "Neo-traditionalism of Japan.",
+      "pos": 8
+    },
+    {
+      "slug": "dr-latencys-freak-report",
+      "titleKo": "연석박물지",
+      "titleEn": "Dr.Latency's Freak Report.",
+      "pos": 9
+    },
+    {
+      "slug": "dateless-bar-old-adam",
+      "titleKo": "구약주점",
+      "titleEn": "Dateless Bar \\\"Old Adam\\\".",
+      "pos": 10
+    },
+    {
+      "slug": "rainbow-colored-septentrion",
+      "titleKo": "무지갯빛 셉텐트리온",
+      "titleEn": "Rainbow-Colored Septentrion",
+      "pos": 11
+    },
+    {
+      "slug": "taboo-japan-disentanglement",
+      "titleKo": "타나바타자카 무겐노",
+      "titleEn": "Taboo Japan Disentanglement.",
+      "pos": 12
+    }
+  ],
+  "characters": [
+    {
+      "id": "cirno",
+      "slug": "cirno",
+      "ko": "치르노",
+      "en": "Cirno",
+      "ja": "チルノ",
+      "ability": "냉기를 조종하는 정도의 능력",
+      "title": "얼음의 작은 요정",
+      "species": "요정",
+      "location": "안개의 호수",
+      "personality": "자신을 '최강'이라 부르는 어린 얼음 요정. 호기심이 많고 무모하지만 본질은 천진난만하다.",
+      "image": "/img/th06/cirno.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "great-fairy-wars",
+          "category": "side",
+          "year": 2010,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "daiyousei",
+      "slug": "daiyousei",
+      "ko": "대요정",
+      "en": "Daiyousei",
+      "ja": "大妖精",
+      "ability": "물을 다루는 정도의 능력",
+      "title": "큰 요정",
+      "species": "요정",
+      "location": "안개의 호수",
+      "personality": "안개의 호수에 사는 커다란 요정. 치르노의 친구로 자주 함께 다닌다. 수줍음이 많은 편.",
+      "image": "/img/th06/daiyousei.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "great-fairy-wars",
+          "category": "side",
+          "year": 2010,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "flandre_scarlet",
+      "slug": "flandre-scarlet",
+      "ko": "플랑드르 스칼렛",
+      "en": "Flandre Scarlet",
+      "ja": "フランドール・スカーレット",
+      "ability": "온갖 것을 파괴하는 정도의 능력",
+      "title": "악마의 여동생",
+      "species": "흡혈귀",
+      "location": "홍마관 지하실",
+      "personality": "레밀리아의 여동생. 위험한 능력 때문에 495년 동안 지하에 격리되어 있어 다소 천진난만하고 불안정하다.",
+      "image": "/img/th06/flandre_scarlet.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "hong_meiling",
+      "slug": "hong-meiling",
+      "ko": "홍 메이링",
+      "en": "Hong Meiling",
+      "ja": "紅 美鈴",
+      "ability": "기를 조종하는 정도의 능력",
+      "title": "꽃의 대문지기 중국",
+      "species": "요괴 (반요)",
+      "location": "홍마관 정문",
+      "personality": "홍마관의 문지기. 낮잠을 즐기는 한가로운 성격이지만 무술 실력은 본격적이다.",
+      "image": "/img/th06/hong_meiring.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "koakuma",
+      "slug": "koakuma",
+      "ko": "소악마",
+      "en": "Koakuma",
+      "ja": "小悪魔",
+      "ability": "악마 종류의 능력",
+      "title": "하급 악마",
+      "species": "악마",
+      "location": "홍마관 도서관",
+      "personality": "파츄리의 비서이자 도서관의 사서. 정체에 대해서는 거의 알려진 바가 없다.",
+      "image": "/img/th06/koakuma.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "patchouli_knowledge",
+      "slug": "patchouli-knowledge",
+      "ko": "파츄리 널릿지",
+      "en": "Patchouli Knowledge",
+      "ja": "パチュリー・ノーレッジ",
+      "ability": "마법을 자유자재로 사용하는 정도의 능력",
+      "title": "지식의 일주일",
+      "species": "마법사",
+      "location": "홍마관 도서관 (보이저루멘)",
+      "personality": "병약하고 무뚝뚝하지만 지식이 깊다. 책 읽기를 좋아하며 좀처럼 도서관 밖으로 나오지 않는다.",
+      "image": "/img/th06/patchouli_knowledge.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "remilia_scarlet",
+      "slug": "remilia-scarlet",
+      "ko": "레밀리아 스칼렛",
+      "en": "Remilia Scarlet",
+      "ja": "レミリア・スカーレット",
+      "ability": "운명을 조종하는 정도의 능력",
+      "title": "영원히 어린 흡혈귀",
+      "species": "흡혈귀",
+      "location": "홍마관",
+      "personality": "어린 외형과 달리 500세가 넘은 흡혈귀. 거만하고 카리스마 있는 성격으로 홍마관의 주인.",
+      "image": "/img/th06/remilia_scarlet.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "rumia",
+      "slug": "rumia",
+      "ko": "루미아",
+      "en": "Rumia",
+      "ja": "ルーミア",
+      "ability": "어둠을 조종하는 정도의 능력",
+      "title": "요귀",
+      "species": "요괴",
+      "location": "환상향 (떠돌이)",
+      "personality": "낮에는 자기 주변에 어둠을 만들어 활동한다. 단순하고 어딘가 어수룩한 면이 있다.",
+      "image": "/img/th06/rumia.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "sakuya_izayoi",
+      "slug": "sakuya-izayoi",
+      "ko": "이자요이 사쿠야",
+      "en": "Sakuya Izayoi",
+      "ja": "十六夜 咲夜",
+      "ability": "시간을 조종하는 정도의 능력",
+      "title": "완벽하고 우아한 메이드",
+      "species": "인간",
+      "location": "홍마관",
+      "personality": "홍마관의 수석 메이드. 냉정 침착하고 충성스러우며, 일처리가 완벽하다.",
+      "image": "/img/th06/izayoi_sakuya.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "bullet-filia",
+          "category": "side",
+          "year": 2023,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "fossilized-wonders",
+          "category": "shooting",
+          "year": 2025,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "marisa_kirisame",
+      "slug": "marisa-kirisame",
+      "ko": "키리사메 마리사",
+      "en": "Marisa Kirisame",
+      "ja": "霧雨 魔理沙",
+      "ability": "마법을 사용하는 정도의 능력",
+      "title": "보통의 마법사",
+      "species": "인간 (마법사)",
+      "location": "마법의 숲",
+      "personality": "공부와 수집을 좋아하는 노력형 마법사. 솔직하고 거침없는 성격으로, 흥미가 동하면 곧장 행동에 나선다.",
+      "image": "/img/th06/kirisame_marisa.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "great-fairy-wars",
+          "category": "side",
+          "year": 2010,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "bullet-filia",
+          "category": "side",
+          "year": 2023,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "fossilized-wonders",
+          "category": "shooting",
+          "year": 2025,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "reimu_hakurei",
+      "slug": "reimu-hakurei",
+      "ko": "하쿠레이 레이무",
+      "en": "Reimu Hakurei",
+      "ja": "博麗 霊夢",
+      "ability": "하늘을 나는 정도의 능력",
+      "title": "낙천적인 무녀",
+      "species": "인간 (무녀)",
+      "location": "하쿠레이 신사",
+      "personality": "낙천적이고 단순하며, 신경 쓰는 일이 없다. 사건이 일어나면 가장 먼저 움직이는 환상향의 무녀.",
+      "image": "/img/th06/hakurei_reimu.webp",
+      "firstAppearanceSlug": "embodiment-of-scarlet-devil",
+      "appearances": [
+        {
+          "gameSlug": "embodiment-of-scarlet-devil",
+          "category": "shooting",
+          "year": 2002,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "bullet-filia",
+          "category": "side",
+          "year": 2023,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "fossilized-wonders",
+          "category": "shooting",
+          "year": 2025,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "alice_margatroid",
+      "slug": "alice-margatroid",
+      "ko": "앨리스 마가트로이드",
+      "en": "Alice Margatroid",
+      "ja": "アリス・マーガトロイド",
+      "ability": "인형을 조종하는 정도의 능력",
+      "title": "칠색의 인형사",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "chen",
+      "slug": "chen",
+      "ko": "첸",
+      "en": "Chen",
+      "ja": "橙",
+      "ability": "재앙을 일으키는 정도의 능력",
+      "title": "흑묘의 식신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "letty_whiterock",
+      "slug": "letty-whiterock",
+      "ko": "레티 화이트락",
+      "en": "Letty Whiterock",
+      "ja": "レティ・ホワイトロック",
+      "ability": "추위를 조종하는 정도의 능력",
+      "title": "북국의 요정",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "lily_white",
+      "slug": "lily-white",
+      "ko": "릴리 화이트",
+      "en": "Lily White",
+      "ja": "リリーホワイト",
+      "ability": "봄을 알리는 정도의 능력",
+      "title": "봄을 알리는 요정",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "great-fairy-wars",
+          "category": "side",
+          "year": 2010,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "lunasa_prismriver",
+      "slug": "lunasa-prismriver",
+      "ko": "루나사 프리즘리버",
+      "en": "Lunasa Prismriver",
+      "ja": "ルナサ・プリズムリバー",
+      "ability": "악기로 음을 조종하는 정도의 능력",
+      "title": "우울의 바이올린",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "lyrica_prismriver",
+      "slug": "lyrica-prismriver",
+      "ko": "리리카 프리즘리버",
+      "en": "Lyrica Prismriver",
+      "ja": "リリカ・プリズムリバー",
+      "ability": "악기로 음을 조종하는 정도의 능력",
+      "title": "환상의 키보드",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "merlin_prismriver",
+      "slug": "merlin-prismriver",
+      "ko": "메를랑 프리즘리버",
+      "en": "Merlin Prismriver",
+      "ja": "メルラン・プリズムリバー",
+      "ability": "악기로 음을 조종하는 정도의 능력",
+      "title": "소란의 트럼펫",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "ran_yakumo",
+      "slug": "ran-yakumo",
+      "ko": "야쿠모 란",
+      "en": "Ran Yakumo",
+      "ja": "八雲 藍",
+      "ability": "수식을 조종하는 정도의 능력",
+      "title": "팔백비구니의 식신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "youmu_konpaku",
+      "slug": "youmu-konpaku",
+      "ko": "콘파쿠 요우무",
+      "en": "Youmu Konpaku",
+      "ja": "魂魄 妖夢",
+      "ability": "반인반령의 검술",
+      "title": "반인반령의 정원사",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "yukari_yakumo",
+      "slug": "yukari-yakumo",
+      "ko": "야쿠모 유카리",
+      "en": "Yukari Yakumo",
+      "ja": "八雲 紫",
+      "ability": "경계를 조종하는 정도의 능력",
+      "title": "경계의 요괴",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "yuyuko_saigyouji",
+      "slug": "yuyuko-saigyouji",
+      "ko": "사이교우지 유유코",
+      "en": "Yuyuko Saigyouji",
+      "ja": "西行寺 幽々子",
+      "ability": "죽음을 조종하는 정도의 능력",
+      "title": "유원에 망향하는 망령",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "perfect-cherry-blossom",
+      "appearances": [
+        {
+          "gameSlug": "perfect-cherry-blossom",
+          "category": "shooting",
+          "year": 2003,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "eirin_yagokoro",
+      "slug": "eirin-yagokoro",
+      "ko": "야고코로 에이린",
+      "en": "Eirin Yagokoro",
+      "ja": "八意 永琳",
+      "ability": "수많은 약을 만들어내는 정도의 능력",
+      "title": "달의 두뇌",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "imperishable-night",
+      "appearances": [
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "fujiwara_no_mokou",
+      "slug": "fujiwara-no-mokou",
+      "ko": "후지와라노 모코우",
+      "en": "Fujiwara no Mokou",
+      "ja": "藤原 妹紅",
+      "ability": "죽지 않는 정도의 능력",
+      "title": "봉래의 인간",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "imperishable-night",
+      "appearances": [
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "kaguya_houraisan",
+      "slug": "kaguya-houraisan",
+      "ko": "호라이산 카구야",
+      "en": "Kaguya Houraisan",
+      "ja": "蓬莱山 輝夜",
+      "ability": "영원과 잠깐의 조작",
+      "title": "영야의 우키후네",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "imperishable-night",
+      "appearances": [
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "keine_kamishirasawa",
+      "slug": "keine-kamishirasawa",
+      "ko": "카미시라사와 케이네",
+      "en": "Keine Kamishirasawa",
+      "ja": "上白沢 慧音",
+      "ability": "역사를 먹는 정도의 능력",
+      "title": "역사를 숨기는 반수",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "imperishable-night",
+      "appearances": [
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "mystia_lorelei",
+      "slug": "mystia-lorelei",
+      "ko": "미스티아 로렐라이",
+      "en": "Mystia Lorelei",
+      "ja": "ミスティア・ローレライ",
+      "ability": "노래로 새우는 정도의 능력",
+      "title": "밤 참새의 요괴",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "imperishable-night",
+      "appearances": [
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "reisen_udongein_inaba",
+      "slug": "reisen-udongein-inaba",
+      "ko": "레이센 우동게인 이나바",
+      "en": "Reisen Udongein Inaba",
+      "ja": "鈴仙・優曇華院・イナバ",
+      "ability": "광기를 조종하는 정도의 능력",
+      "title": "광기의 달의 토끼",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "imperishable-night",
+      "appearances": [
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "tewi_inaba",
+      "slug": "tewi-inaba",
+      "ko": "이나바 테위",
+      "en": "Tewi Inaba",
+      "ja": "因幡 てゐ",
+      "ability": "행복을 부르는 정도의 능력",
+      "title": "행복을 가져오는 흰토끼",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "imperishable-night",
+      "appearances": [
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "wriggle_nightbug",
+      "slug": "wriggle-nightbug",
+      "ko": "리글 나이트버그",
+      "en": "Wriggle Nightbug",
+      "ja": "リグル・ナイトバグ",
+      "ability": "벌레를 조종하는 정도의 능력",
+      "title": "어둠 속의 자외선",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "imperishable-night",
+      "appearances": [
+        {
+          "gameSlug": "imperishable-night",
+          "category": "shooting",
+          "year": 2004,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "eiki_shiki_yamaxanadu",
+      "slug": "eiki-shiki-yamaxanadu",
+      "ko": "시키에이키 야마자나두",
+      "en": "Eiki Shiki, Yamaxanadu",
+      "ja": "四季映姫・ヤマザナドゥ",
+      "ability": "선악을 단죄하는 정도의 능력",
+      "title": "낙원의 가장 엄정한 재판장",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "phantasmagoria-of-flower-view",
+      "appearances": [
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "komachi_onozuka",
+      "slug": "komachi-onozuka",
+      "ko": "오노즈카 코마치",
+      "en": "Komachi Onozuka",
+      "ja": "小野塚 小町",
+      "ability": "거리를 조종하는 정도의 능력",
+      "title": "삼도천의 뱃사공",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "phantasmagoria-of-flower-view",
+      "appearances": [
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "medicine_melancholy",
+      "slug": "medicine-melancholy",
+      "ko": "메디슨 멜랑콜리",
+      "en": "Medicine Melancholy",
+      "ja": "メディスン・メランコリー",
+      "ability": "독을 조종하는 정도의 능력",
+      "title": "꼬마 스위트 포이즌",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "phantasmagoria-of-flower-view",
+      "appearances": [
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "yuuka_kazami",
+      "slug": "yuuka-kazami",
+      "ko": "카자미 유카",
+      "en": "Yuuka Kazami",
+      "ja": "風見 幽香",
+      "ability": "꽃을 조종하는 정도의 능력",
+      "title": "사계의 사풍요괴",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "phantasmagoria-of-flower-view",
+      "appearances": [
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "aya_shameimaru",
+      "slug": "aya-shameimaru",
+      "ko": "샤메이마루 아야",
+      "en": "Aya Shameimaru",
+      "ja": "射命丸 文",
+      "ability": "바람을 조종하는 정도의 능력",
+      "title": "바람보다 빠른 텐구",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "phantasmagoria-of-flower-view",
+      "appearances": [
+        {
+          "gameSlug": "phantasmagoria-of-flower-view",
+          "category": "shooting",
+          "year": 2005,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "shoot-the-bullet",
+          "category": "side",
+          "year": 2005,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "double-spoiler",
+          "category": "side",
+          "year": 2010,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "hina_kagiyama",
+      "slug": "hina-kagiyama",
+      "ko": "카기야마 히나",
+      "en": "Hina Kagiyama",
+      "ja": "鍵山 雛",
+      "ability": "액운을 모으는 정도의 능력",
+      "title": "유랑하는 액신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "mountain-of-faith",
+      "appearances": [
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "kanako_yasaka",
+      "slug": "kanako-yasaka",
+      "ko": "야사카 카나코",
+      "en": "Kanako Yasaka",
+      "ja": "八坂 神奈子",
+      "ability": "건국의 신덕",
+      "title": "산의 정상의 처녀 신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "mountain-of-faith",
+      "appearances": [
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "minoriko_aki",
+      "slug": "minoriko-aki",
+      "ko": "아키 미노리코",
+      "en": "Minoriko Aki",
+      "ja": "秋 穣子",
+      "ability": "풍요를 조종하는 정도의 능력",
+      "title": "추수의 신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "mountain-of-faith",
+      "appearances": [
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "momiji_inubashiri",
+      "slug": "momiji-inubashiri",
+      "ko": "이누바시리 모미지",
+      "en": "Momiji Inubashiri",
+      "ja": "犬走 椛",
+      "ability": "천리안을 가진 정도의 능력",
+      "title": "혜안의 백랑천구",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "mountain-of-faith",
+      "appearances": [
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "nitori_kawashiro",
+      "slug": "nitori-kawashiro",
+      "ko": "카와시로 니토리",
+      "en": "Nitori Kawashiro",
+      "ja": "河城 にとり",
+      "ability": "물을 조종하는 정도의 능력",
+      "title": "초소형 갓파의 기술자",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "mountain-of-faith",
+      "appearances": [
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "sanae_kochiya",
+      "slug": "sanae-kochiya",
+      "ko": "코치야 사나에",
+      "en": "Sanae Kochiya",
+      "ja": "東風谷 早苗",
+      "ability": "기적을 일으키는 정도의 능력",
+      "title": "바람신의 무녀",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "mountain-of-faith",
+      "appearances": [
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "bullet-filia",
+          "category": "side",
+          "year": 2023,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "shizuha_aki",
+      "slug": "shizuha-aki",
+      "ko": "아키 시즈하",
+      "en": "Shizuha Aki",
+      "ja": "秋 静葉",
+      "ability": "단풍을 조종하는 정도의 능력",
+      "title": "낙엽의 신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "mountain-of-faith",
+      "appearances": [
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "suwako_moriya",
+      "slug": "suwako-moriya",
+      "ko": "모리야 스와코",
+      "en": "Suwako Moriya",
+      "ja": "洩矢 諏訪子",
+      "ability": "흙을 조종하는 정도의 능력",
+      "title": "토착신의 두목",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "mountain-of-faith",
+      "appearances": [
+        {
+          "gameSlug": "mountain-of-faith",
+          "category": "shooting",
+          "year": 2007,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "kisume",
+      "slug": "kisume",
+      "ko": "키스메",
+      "en": "Kisume",
+      "ja": "キスメ",
+      "ability": "두레박을 자유로이 다루는 정도의 능력",
+      "title": "두레박에 사는 어린 요괴",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "subterranean-animism",
+      "appearances": [
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "koishi_komeiji",
+      "slug": "koishi-komeiji",
+      "ko": "코메이지 코이시",
+      "en": "Koishi Komeiji",
+      "ja": "古明地 こいし",
+      "ability": "무의식을 조종하는 정도의 능력",
+      "title": "닫힌 마음의 눈",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "subterranean-animism",
+      "appearances": [
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "parsee_mizuhashi",
+      "slug": "parsee-mizuhashi",
+      "ko": "미즈하시 파르시",
+      "en": "Parsee Mizuhashi",
+      "ja": "水橋 パルスィ",
+      "ability": "질투심을 조종하는 정도의 능력",
+      "title": "지하의 다리 공주",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "subterranean-animism",
+      "appearances": [
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "rin_kaenbyou",
+      "slug": "rin-kaenbyou",
+      "ko": "카엔뵤 린",
+      "en": "Rin Kaenbyou",
+      "ja": "火焔猫 燐",
+      "ability": "시체와 영을 조종하는 정도의 능력",
+      "title": "지옥의 화차",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "subterranean-animism",
+      "appearances": [
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "satori_komeiji",
+      "slug": "satori-komeiji",
+      "ko": "코메이지 사토리",
+      "en": "Satori Komeiji",
+      "ja": "古明地 さとり",
+      "ability": "마음을 읽는 정도의 능력",
+      "title": "마음을 읽는 요괴",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "subterranean-animism",
+      "appearances": [
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "utsuho_reiuji",
+      "slug": "utsuho-reiuji",
+      "ko": "레이우지 우츠호",
+      "en": "Utsuho Reiuji",
+      "ja": "霊烏路 空",
+      "ability": "핵융합을 조종하는 정도의 능력",
+      "title": "지옥의 인공태양",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "subterranean-animism",
+      "appearances": [
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "yamame_kurodani",
+      "slug": "yamame-kurodani",
+      "ko": "쿠로다니 야마메",
+      "en": "Yamame Kurodani",
+      "ja": "黒谷 ヤマメ",
+      "ability": "병을 다루는 정도의 능력",
+      "title": "동굴에 잠복한 흙거미",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "subterranean-animism",
+      "appearances": [
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "yuugi_hoshiguma",
+      "slug": "yuugi-hoshiguma",
+      "ko": "호시구마 유기",
+      "en": "Yuugi Hoshiguma",
+      "ja": "星熊 勇儀",
+      "ability": "괴력난신을 조종하는 정도의 능력",
+      "title": "맡겨두기엔 부족한 오니",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "subterranean-animism",
+      "appearances": [
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "suika_ibuki",
+      "slug": "suika-ibuki",
+      "ko": "이부키 스이카",
+      "en": "Suika Ibuki",
+      "ja": "伊吹 萃香",
+      "ability": "농밀함과 희박함을 조종하는 정도의 능력",
+      "title": "이상한 강함의 작은 오니",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "subterranean-animism",
+      "appearances": [
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "subterranean-animism",
+          "category": "shooting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "byakuren_hijiri",
+      "slug": "byakuren-hijiri",
+      "ko": "히지리 뱌쿠렌",
+      "en": "Byakuren Hijiri",
+      "ja": "聖 白蓮",
+      "ability": "마법을 사용하는 정도의 능력",
+      "title": "봉인된 대마법사",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "undefined-fantastic-object",
+      "appearances": [
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "ichirin_kumoi",
+      "slug": "ichirin-kumoi",
+      "ko": "쿠모이 이치린",
+      "en": "Ichirin Kumoi",
+      "ja": "雲居 一輪",
+      "ability": "구름을 조종하는 정도의 능력",
+      "title": "구름을 부르는 와룡의 비구니",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "undefined-fantastic-object",
+      "appearances": [
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "kogasa_tatara",
+      "slug": "kogasa-tatara",
+      "ko": "타타라 코가사",
+      "en": "Kogasa Tatara",
+      "ja": "多々良 小傘",
+      "ability": "사람을 놀라게 하는 정도의 능력",
+      "title": "잊혀진 가라카사 오바케",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "undefined-fantastic-object",
+      "appearances": [
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "minamitsu_murasa",
+      "slug": "minamitsu-murasa",
+      "ko": "무라사 미나미츠",
+      "en": "Minamitsu Murasa",
+      "ja": "村紗 水蜜",
+      "ability": "배를 가라앉히는 정도의 능력",
+      "title": "원혼이 머무르는 닻",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "undefined-fantastic-object",
+      "appearances": [
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "nazrin",
+      "slug": "nazrin",
+      "ko": "나즈린",
+      "en": "Nazrin",
+      "ja": "ナズーリン",
+      "ability": "행운을 부르는 정도의 능력",
+      "title": "꼬마 다우저",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "undefined-fantastic-object",
+      "appearances": [
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "nue_houjuu",
+      "slug": "nue-houjuu",
+      "ko": "호쥬 누에",
+      "en": "Nue Houjuu",
+      "ja": "封獣 ぬえ",
+      "ability": "사물의 정체를 알 수 없게 하는 정도의 능력",
+      "title": "정체불명의 누에",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "undefined-fantastic-object",
+      "appearances": [
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "shou_toramaru",
+      "slug": "shou-toramaru",
+      "ko": "토라마루 쇼",
+      "en": "Shou Toramaru",
+      "ja": "寅丸 星",
+      "ability": "비사문천의 가호를 받은 정도의 능력",
+      "title": "비사문천의 대리",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "undefined-fantastic-object",
+      "appearances": [
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "unzan",
+      "slug": "unzan",
+      "ko": "운잔",
+      "en": "Unzan",
+      "ja": "雲山",
+      "ability": "구름을 조종하는 정도의 능력",
+      "title": "선의 구름",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "undefined-fantastic-object",
+      "appearances": [
+        {
+          "gameSlug": "undefined-fantastic-object",
+          "category": "shooting",
+          "year": 2009,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "kyouko_kasodani",
+      "slug": "kyouko-kasodani",
+      "ko": "카소다니 쿄코",
+      "en": "Kyouko Kasodani",
+      "ja": "幽谷 響子",
+      "ability": "메아리를 일으키는 정도의 능력",
+      "title": "메아리치는 산명조",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "ten-desires",
+      "appearances": [
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "mamizou_futatsuiwa",
+      "slug": "mamizou-futatsuiwa",
+      "ko": "후타츠이와 마미조",
+      "en": "Mamizou Futatsuiwa",
+      "ja": "二ッ岩 マミゾウ",
+      "ability": "나뭇잎과 사물을 변신시키는 정도의 능력",
+      "title": "마계로 통하는 너구리",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "ten-desires",
+      "appearances": [
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "mononobe_no_futo",
+      "slug": "mononobe-no-futo",
+      "ko": "모노노베노 후토",
+      "en": "Mononobe no Futo",
+      "ja": "物部 布都",
+      "ability": "풍수를 조종하는 정도의 능력",
+      "title": "도사의 자제",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "ten-desires",
+      "appearances": [
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "seiga_kaku",
+      "slug": "seiga-kaku",
+      "ko": "곽청아",
+      "en": "Seiga Kaku",
+      "ja": "霍 青娥",
+      "ability": "벽을 빠져나가는 정도의 능력",
+      "title": "벽을 빠져나가는 사악한 신선",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "ten-desires",
+      "appearances": [
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "soga_no_tojiko",
+      "slug": "soga-no-tojiko",
+      "ko": "소가노 토지코",
+      "en": "Soga no Tojiko",
+      "ja": "蘇我 屠自古",
+      "ability": "벼락을 조종하는 정도의 능력",
+      "title": "토더미의 망령",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "ten-desires",
+      "appearances": [
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "toyosatomimi_no_miko",
+      "slug": "toyosatomimi-no-miko",
+      "ko": "토요사토미미노 미코",
+      "en": "Toyosatomimi no Miko",
+      "ja": "豊聡耳 神子",
+      "ability": "10명의 이야기를 한 번에 듣는 정도의 능력",
+      "title": "성덕도사",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "ten-desires",
+      "appearances": [
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "yoshika_miyako",
+      "slug": "yoshika-miyako",
+      "ko": "미야코 요시카",
+      "en": "Yoshika Miyako",
+      "ja": "宮古 芳香",
+      "ability": "무엇이든 먹는 정도의 능력",
+      "title": "탐욕스러운 강시",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "ten-desires",
+      "appearances": [
+        {
+          "gameSlug": "ten-desires",
+          "category": "shooting",
+          "year": 2011,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "benben_tsukumo",
+      "slug": "benben-tsukumo",
+      "ko": "츠쿠모 벤벤",
+      "en": "Benben Tsukumo",
+      "ja": "九十九 弁々",
+      "ability": "비파를 자유자재로 다루는 정도의 능력",
+      "title": "쓰쿠모 비파",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "double-dealing-character",
+      "appearances": [
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "kagerou_imaizumi",
+      "slug": "kagerou-imaizumi",
+      "ko": "이마이즈미 카게로",
+      "en": "Kagerou Imaizumi",
+      "ja": "今泉 影狼",
+      "ability": "늑대로 변하는 정도의 능력",
+      "title": "달밤의 늑대인간",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "double-dealing-character",
+      "appearances": [
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "raiko_horikawa",
+      "slug": "raiko-horikawa",
+      "ko": "호리카와 라이코",
+      "en": "Raiko Horikawa",
+      "ja": "堀川 雷鼓",
+      "ability": "큰북을 자유자재로 다루는 정도의 능력",
+      "title": "환상의 드러머",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "double-dealing-character",
+      "appearances": [
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "seija_kijin",
+      "slug": "seija-kijin",
+      "ko": "키진 세이자",
+      "en": "Seija Kijin",
+      "ja": "鬼人 正邪",
+      "ability": "모든 것을 뒤집는 정도의 능력",
+      "title": "반역의 작은 도깨비",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "double-dealing-character",
+      "appearances": [
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "impossible-spell-card",
+          "category": "side",
+          "year": 2014,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "sekibanki",
+      "slug": "sekibanki",
+      "ko": "세키반키",
+      "en": "Sekibanki",
+      "ja": "赤蛮奇",
+      "ability": "머리만 떼어내 날리는 정도의 능력",
+      "title": "회전하는 빨간 목",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "double-dealing-character",
+      "appearances": [
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "shinmyoumaru_sukuna",
+      "slug": "shinmyoumaru-sukuna",
+      "ko": "스쿠나 신묘마루",
+      "en": "Shinmyoumaru Sukuna",
+      "ja": "少名 針妙丸",
+      "ability": "타인을 작게 하는 정도의 능력",
+      "title": "쟁쟁한 잇슨보시",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "double-dealing-character",
+      "appearances": [
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "impossible-spell-card",
+          "category": "side",
+          "year": 2014,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "wakasagihime",
+      "slug": "wakasagihime",
+      "ko": "와카사기히메",
+      "en": "Wakasagihime",
+      "ja": "わかさぎ姫",
+      "ability": "물고기를 조종하는 정도의 능력",
+      "title": "수중의 인어",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "double-dealing-character",
+      "appearances": [
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "yatsuhashi_tsukumo",
+      "slug": "yatsuhashi-tsukumo",
+      "ko": "츠쿠모 야츠하시",
+      "en": "Yatsuhashi Tsukumo",
+      "ja": "九十九 八橋",
+      "ability": "거문고를 자유자재로 다루는 정도의 능력",
+      "title": "쓰쿠모 코토",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "double-dealing-character",
+      "appearances": [
+        {
+          "gameSlug": "double-dealing-character",
+          "category": "shooting",
+          "year": 2013,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "clownpiece",
+      "slug": "clownpiece",
+      "ko": "클라운피스",
+      "en": "Clownpiece",
+      "ja": "クラウンピース",
+      "ability": "광기를 부추기는 정도의 능력",
+      "title": "지옥의 요정",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "legacy-of-lunatic-kingdom",
+      "appearances": [
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "doremy_sweet",
+      "slug": "doremy-sweet",
+      "ko": "도레미 스위트",
+      "en": "Doremy Sweet",
+      "ja": "ドレミー・スイート",
+      "ability": "꿈을 먹는 정도의 능력",
+      "title": "꿈의 세계의 주인",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "legacy-of-lunatic-kingdom",
+      "appearances": [
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "hecatia_lapislazuli",
+      "slug": "hecatia-lapislazuli",
+      "ko": "헤카티아 라피스라줄리",
+      "en": "Hecatia Lapislazuli",
+      "ja": "ヘカーティア・ラピスラズリ",
+      "ability": "지옥을 다스리는 정도의 능력",
+      "title": "지옥의 여신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "legacy-of-lunatic-kingdom",
+      "appearances": [
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "junko",
+      "slug": "junko",
+      "ko": "순호",
+      "en": "Junko",
+      "ja": "純狐",
+      "ability": "순수해지는 정도의 능력",
+      "title": "순호의 신령",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "legacy-of-lunatic-kingdom",
+      "appearances": [
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "ringo",
+      "slug": "ringo",
+      "ko": "링고",
+      "en": "Ringo",
+      "ja": "鈴瑚",
+      "ability": "경단을 자유자재로 다루는 정도의 능력",
+      "title": "환상의 떡 만드는 토끼",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "legacy-of-lunatic-kingdom",
+      "appearances": [
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "sagume_kishin",
+      "slug": "sagume-kishin",
+      "ko": "키신 사구메",
+      "en": "Sagume Kishin",
+      "ja": "稀神 サグメ",
+      "ability": "말한 것을 반대로 일으키는 정도의 능력",
+      "title": "한쪽 날개의 백택",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "legacy-of-lunatic-kingdom",
+      "appearances": [
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "seiran",
+      "slug": "seiran",
+      "ko": "세이란",
+      "en": "Seiran",
+      "ja": "清蘭",
+      "ability": "탄환을 자유자재로 다루는 정도의 능력",
+      "title": "달의 첩보 부대",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "legacy-of-lunatic-kingdom",
+      "appearances": [
+        {
+          "gameSlug": "legacy-of-lunatic-kingdom",
+          "category": "shooting",
+          "year": 2015,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "aunn_komano",
+      "slug": "aunn-komano",
+      "ko": "코마노 아운",
+      "en": "Aunn Komano",
+      "ja": "高麗野あうん",
+      "ability": "이변과 결계를 감지하는 정도의 능력",
+      "title": "맡은 곳을 지키는 코마이누",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hidden-star-in-four-seasons",
+      "appearances": [
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "eternity_larva",
+      "slug": "eternity-larva",
+      "ko": "이터니티 라바",
+      "en": "Eternity Larva",
+      "ja": "エタニティラルバ",
+      "ability": "주위 생물의 활동을 활발히 하는 정도의 능력",
+      "title": "지나가는 아게하 요정",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hidden-star-in-four-seasons",
+      "appearances": [
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "mai_teireida",
+      "slug": "mai-teireida",
+      "ko": "테이레이다 마이",
+      "en": "Mai Teireida",
+      "ja": "丁礼田舞",
+      "ability": "꿈에 잠수해 능력을 끄는 정도의 능력",
+      "title": "꿈의 마이쿠라",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hidden-star-in-four-seasons",
+      "appearances": [
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "narumi_yatadera",
+      "slug": "narumi-yatadera",
+      "ko": "야타데라 나루미",
+      "en": "Narumi Yatadera",
+      "ja": "矢田寺成美",
+      "ability": "지장보살로 변신하는 정도의 능력",
+      "title": "마계의 부동의 지장보살",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hidden-star-in-four-seasons",
+      "appearances": [
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "nemuno_sakata",
+      "slug": "nemuno-sakata",
+      "ko": "사카타 네무노",
+      "en": "Nemuno Sakata",
+      "ja": "坂田ネムノ",
+      "ability": "사람을 묶어두는 정도의 능력",
+      "title": "산속의 위험한 야마우바",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hidden-star-in-four-seasons",
+      "appearances": [
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "okina_matara",
+      "slug": "okina-matara",
+      "ko": "마타라 오키나",
+      "en": "Okina Matara",
+      "ja": "摩多羅隠岐奈",
+      "ability": "뒷문을 만드는 정도의 능력",
+      "title": "비밀스러운 후방의 신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hidden-star-in-four-seasons",
+      "appearances": [
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "satono_nishida",
+      "slug": "satono-nishida",
+      "ko": "니시다 사토노",
+      "en": "Satono Nishida",
+      "ja": "爾子田里乃",
+      "ability": "꿈에 잠수해 능력을 끄는 정도의 능력",
+      "title": "꿈의 우바이상",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hidden-star-in-four-seasons",
+      "appearances": [
+        {
+          "gameSlug": "hidden-star-in-four-seasons",
+          "category": "shooting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "eagle_spirit",
+      "slug": "eagle-spirit",
+      "ko": "참수리령",
+      "en": "Eagle Spirit",
+      "ja": "オオワシ霊",
+      "ability": null,
+      "title": null,
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "eika_ebisu",
+      "slug": "eika-ebisu",
+      "ko": "에비스 에이카",
+      "en": "Eika Ebisu",
+      "ja": "戎 瓔花",
+      "ability": "돌을 쌓아 올리는 정도의 능력",
+      "title": "삼도내의 죄녀",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "keiki_haniyasushin",
+      "slug": "keiki-haniyasushin",
+      "ko": "하니야스신 케이키",
+      "en": "Keiki Haniyasushin",
+      "ja": "埴安神 袿姫",
+      "ability": "이상을 일으키는 정도의 능력",
+      "title": "신성한 토우의 신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "kutaka_niwatari",
+      "slug": "kutaka-niwatari",
+      "ko": "니와타리 쿠타카",
+      "en": "Kutaka Niwatari",
+      "ja": "庭渡 久侘歌",
+      "ability": "사람의 권리를 결정하는 정도의 능력",
+      "title": "성스러운 닭의 신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "mayumi_joutouguu",
+      "slug": "mayumi-joutouguu",
+      "ko": "조토구 마유미",
+      "en": "Mayumi Joutouguu",
+      "ja": "杖刀偶 磨弓",
+      "ability": "토우 군세를 조종하는 정도의 능력",
+      "title": "성인의 부하",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "otter_spirit",
+      "slug": "otter-spirit",
+      "ko": "수달령",
+      "en": "Otter Spirit",
+      "ja": "カワウソ霊",
+      "ability": null,
+      "title": null,
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "saki_kurokoma",
+      "slug": "saki-kurokoma",
+      "ko": "쿠로코마 사키",
+      "en": "Saki Kurokoma",
+      "ja": "驪駒 早鬼",
+      "ability": "어떤 동물 영혼도 휘어잡는 정도의 능력",
+      "title": "지옥의 우전마",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "urumi_ushizaki",
+      "slug": "urumi-ushizaki",
+      "ko": "우시자키 우루미",
+      "en": "Urumi Ushizaki",
+      "ja": "牛崎 潤美",
+      "ability": "친구를 만드는 정도의 능력",
+      "title": "사람과 어울리는 우시오니",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "wolf_spirit",
+      "slug": "wolf-spirit",
+      "ko": "늑대령",
+      "en": "Wolf Spirit",
+      "ja": "オオカミ霊",
+      "ability": null,
+      "title": null,
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "yachie_kicchou",
+      "slug": "yachie-kicchou",
+      "ko": "킷초 야치에",
+      "en": "Yachie Kicchou",
+      "ja": "吉弔 八千慧",
+      "ability": "타인을 종속시키는 정도의 능력",
+      "title": "꿈에 그리는 친구",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "wily-beast-and-weakest-creature",
+      "appearances": [
+        {
+          "gameSlug": "wily-beast-and-weakest-creature",
+          "category": "shooting",
+          "year": 2019,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "chimata_tenkyuu",
+      "slug": "chimata-tenkyuu",
+      "ko": "텐큐 치마타",
+      "en": "Chimata Tenkyuu",
+      "ja": "天弓 千亦",
+      "ability": "온갖 것을 매매시키는 정도의 능력",
+      "title": "거래의 히메가미",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unconnected-marketeers",
+      "appearances": [
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "megumu_iizunamaru",
+      "slug": "megumu-iizunamaru",
+      "ko": "이즈나마루 메구무",
+      "en": "Megumu Iizunamaru",
+      "ja": "飯綱丸 龍",
+      "ability": "지위를 부여하는 정도의 능력",
+      "title": "신령 텐구의 위세",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unconnected-marketeers",
+      "appearances": [
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "bullet-filia",
+          "category": "side",
+          "year": 2023,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "mike_goutokuji",
+      "slug": "mike-goutokuji",
+      "ko": "고토쿠지 미케",
+      "en": "Mike Goutokuji",
+      "ja": "豪徳寺 ミケ",
+      "ability": "복을 부르는 정도의 능력",
+      "title": "행운의 삼색고양이",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unconnected-marketeers",
+      "appearances": [
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "misumaru_tamatsukuri",
+      "slug": "misumaru-tamatsukuri",
+      "ko": "타마츠쿠리 미스마루",
+      "en": "Misumaru Tamatsukuri",
+      "ja": "玉造 魅須丸",
+      "ability": "구슬을 자유자재로 다루는 정도의 능력",
+      "title": "신령의 매옥",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unconnected-marketeers",
+      "appearances": [
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "momoyo_himemushi",
+      "slug": "momoyo-himemushi",
+      "ko": "히메무시 모모요",
+      "en": "Momoyo Himemushi",
+      "ja": "姫虫 百々世",
+      "ability": "백 개의 다리로 돌진하는 정도의 능력",
+      "title": "산속의 백 발 무희",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unconnected-marketeers",
+      "appearances": [
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "sannyo_komakusa",
+      "slug": "sannyo-komakusa",
+      "ko": "코마쿠사 산뇨",
+      "en": "Sannyo Komakusa",
+      "ja": "駒草 山如",
+      "ability": "연기를 자유자재로 다루는 정도의 능력",
+      "title": "흩날리는 흡연 요괴",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unconnected-marketeers",
+      "appearances": [
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "takane_yamashiro",
+      "slug": "takane-yamashiro",
+      "ko": "야마시로 타카네",
+      "en": "Takane Yamashiro",
+      "ja": "山城 たかね",
+      "ability": "꿈을 침식하는 정도의 능력",
+      "title": "꿈을 침식하는 갓파",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unconnected-marketeers",
+      "appearances": [
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "tsukasa_kudamaki",
+      "slug": "tsukasa-kudamaki",
+      "ko": "쿠다마키 츠카사",
+      "en": "Tsukasa Kudamaki",
+      "ja": "菅牧 典",
+      "ability": "동물을 마음대로 조종하는 정도의 능력",
+      "title": "신호처럼 거짓을 흘리는 백관호",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unconnected-marketeers",
+      "appearances": [
+        {
+          "gameSlug": "unconnected-marketeers",
+          "category": "shooting",
+          "year": 2021,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "bullet-filia",
+          "category": "side",
+          "year": 2023,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "biten_son",
+      "slug": "biten-son",
+      "ko": "손미천",
+      "en": "Biten Son",
+      "ja": "孫 美天",
+      "ability": "분신을 만드는 정도의 능력",
+      "title": "수왕의 후보",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unfinished-dream-of-all-living-ghost",
+      "appearances": [
+        {
+          "gameSlug": "bullet-filia",
+          "category": "side",
+          "year": 2023,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "chiyari_tenkajin",
+      "slug": "chiyari-tenkajin",
+      "ko": "텐카진 치야리",
+      "en": "Chiyari Tenkajin",
+      "ja": "天火人 ちやり",
+      "ability": "병원체를 조종하는 정도의 능력",
+      "title": "토와코의 손녀",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unfinished-dream-of-all-living-ghost",
+      "appearances": [
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "enoko_mitsugashira",
+      "slug": "enoko-mitsugashira",
+      "ko": "미츠가시라 에노코",
+      "en": "Enoko Mitsugashira",
+      "ja": "三頭 慧ノ子",
+      "ability": "세 머리의 개로 변신하는 정도의 능력",
+      "title": "지옥의 삼두견",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unfinished-dream-of-all-living-ghost",
+      "appearances": [
+        {
+          "gameSlug": "bullet-filia",
+          "category": "side",
+          "year": 2023,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "hisami_yomotsu",
+      "slug": "hisami-yomotsu",
+      "ko": "요모츠 히사미",
+      "en": "Hisami Yomotsu",
+      "ja": "豫母都 日狭美",
+      "ability": "이상한 음식을 내놓는 정도의 능력",
+      "title": "황천국의 식객",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unfinished-dream-of-all-living-ghost",
+      "appearances": [
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "zanmu_nippaku",
+      "slug": "zanmu-nippaku",
+      "ko": "닛파쿠 잔무",
+      "en": "Zanmu Nippaku",
+      "ja": "日白 残無",
+      "ability": "지옥의 야경을 거느리는 정도의 능력",
+      "title": "지옥의 신참 야경",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unfinished-dream-of-all-living-ghost",
+      "appearances": [
+        {
+          "gameSlug": "bullet-filia",
+          "category": "side",
+          "year": 2023,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "sumireko_usami",
+      "slug": "sumireko-usami",
+      "ko": "우사미 스미레코",
+      "en": "Sumireko Usami",
+      "ja": "宇佐見 菫子",
+      "ability": "사이코키네시스 정도의 능력",
+      "title": "외부세계의 비밀결사 회장",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "unfinished-dream-of-all-living-ghost",
+      "appearances": [
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "violet-detector",
+          "category": "side",
+          "year": 2018,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "unfinished-dream-of-all-living-ghost",
+          "category": "shooting",
+          "year": 2024,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "ariya_iwanaga",
+      "slug": "ariya-iwanaga",
+      "ko": "이와나가 아리야",
+      "en": "Ariya Iwanaga",
+      "ja": "磐永 阿梨夜",
+      "ability": "돌을 다루는 정도의 능력",
+      "title": "영원불변의 바위 처녀",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "fossilized-wonders",
+      "appearances": [
+        {
+          "gameSlug": "fossilized-wonders",
+          "category": "shooting",
+          "year": 2025,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "chimi_houju",
+      "slug": "chimi-houju",
+      "ko": "호쥬 치미",
+      "en": "Chimi Houju",
+      "ja": "封獣 チミ",
+      "ability": "보석을 자유자재로 다루는 정도의 능력",
+      "title": "빛나는 보석의 신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "fossilized-wonders",
+      "appearances": [
+        {
+          "gameSlug": "fossilized-wonders",
+          "category": "shooting",
+          "year": 2025,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "nareko_michigami",
+      "slug": "nareko-michigami",
+      "ko": "미치가미 나레코",
+      "en": "Nareko Michigami",
+      "ja": "道神 馴子",
+      "ability": "길을 안내하는 정도의 능력",
+      "title": "길의 안내자",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "fossilized-wonders",
+      "appearances": [
+        {
+          "gameSlug": "fossilized-wonders",
+          "category": "shooting",
+          "year": 2025,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "nina_watari",
+      "slug": "nina-watari",
+      "ko": "와타리 니나",
+      "en": "Nina Watari",
+      "ja": "渡里 ニナ",
+      "ability": "건너기 어려운 곳을 건너는 정도의 능력",
+      "title": "강을 건네는 배지기",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "fossilized-wonders",
+      "appearances": [
+        {
+          "gameSlug": "fossilized-wonders",
+          "category": "shooting",
+          "year": 2025,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "ubame_chirizuka",
+      "slug": "ubame-chirizuka",
+      "ko": "치리즈카 우바메",
+      "en": "Ubame Chirizuka",
+      "ja": "塵塚 ウバメ",
+      "ability": "흙먼지를 일으키는 정도의 능력",
+      "title": "쓰레기더미의 그늘",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "fossilized-wonders",
+      "appearances": [
+        {
+          "gameSlug": "fossilized-wonders",
+          "category": "shooting",
+          "year": 2025,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "yuiman_asama",
+      "slug": "yuiman-asama",
+      "ko": "유이만 아사마",
+      "en": "Yuiman Asama",
+      "ja": "ユイマン・ 浅間",
+      "ability": "화석을 만드는 정도의 능력",
+      "title": "화석의 산신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "fossilized-wonders",
+      "appearances": [
+        {
+          "gameSlug": "fossilized-wonders",
+          "category": "shooting",
+          "year": 2025,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "meiling",
+      "slug": "meiling",
+      "ko": "홍 메이링",
+      "en": "Hong Meiling",
+      "ja": "紅 美鈴",
+      "ability": "기를 조종하는 정도의 능력",
+      "title": "꽃의 대문지기 중국",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "immaterial-and-missing-power",
+      "appearances": [
+        {
+          "gameSlug": "immaterial-and-missing-power",
+          "category": "fighting",
+          "year": 2004,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "iku_nagae",
+      "slug": "iku-nagae",
+      "ko": "나가에 이쿠",
+      "en": "Iku Nagae",
+      "ja": "永江 衣玖",
+      "ability": "비늘에서 전기를 만드는 정도의 능력",
+      "title": "유희의 전령사",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "scarlet-weather-rhapsody",
+      "appearances": [
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "tenshi_hinanawi",
+      "slug": "tenshi-hinanawi",
+      "ko": "히나나위 텐시",
+      "en": "Tenshi Hinanawi",
+      "ja": "比那名居 天子",
+      "ability": "대지를 조종하는 정도의 능력",
+      "title": "비상유천의 소녀",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "scarlet-weather-rhapsody",
+      "appearances": [
+        {
+          "gameSlug": "scarlet-weather-rhapsody",
+          "category": "fighting",
+          "year": 2008,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "hisoutensoku",
+          "category": "fighting",
+          "year": 2009,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "hata_no_kokoro",
+      "slug": "hata-no-kokoro",
+      "ko": "하타노 코코로",
+      "en": "Hata no Kokoro",
+      "ja": "秦 こころ",
+      "ability": null,
+      "title": null,
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hopeless-masquerade",
+      "appearances": [
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "kokoro_hata",
+      "slug": "kokoro-hata",
+      "ko": "하타노 코코로",
+      "en": "Hata no Kokoro",
+      "ja": "秦 こころ",
+      "ability": "감정을 조종하는 정도의 능력",
+      "title": "표정 풍부한 가면배우",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hopeless-masquerade",
+      "appearances": [
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": true
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "miko_toyosatomimi",
+      "slug": "miko-toyosatomimi",
+      "ko": "토요사토미미노 미코",
+      "en": "Toyosatomimi no Miko",
+      "ja": "豊聡耳 神子",
+      "ability": "열 명의 목소리를 동시에 듣는 정도의 능력",
+      "title": "성덕의 망상태자",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hopeless-masquerade",
+      "appearances": [
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "touhou-gouyoku-ibun",
+          "category": "fighting",
+          "year": 2022,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "futo_mononobe",
+      "slug": "futo-mononobe",
+      "ko": "모노노베노 후토",
+      "en": "Mononobe no Futo",
+      "ja": "物部 布都",
+      "ability": "풍수를 조종하는 정도의 능력",
+      "title": "사라진 신이 되려는 자",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "hopeless-masquerade",
+      "appearances": [
+        {
+          "gameSlug": "hopeless-masquerade",
+          "category": "fighting",
+          "year": 2013,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "kasen_ibaraki",
+      "slug": "kasen-ibaraki",
+      "ko": "이바라키 카센",
+      "en": "Kasen Ibaraki",
+      "ja": "茨木 華扇",
+      "ability": "비구니의 깨달음을 얻은 정도의 능력",
+      "title": "구름 위 미야토노 도사",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "urban-legend-in-limbo",
+      "appearances": [
+        {
+          "gameSlug": "urban-legend-in-limbo",
+          "category": "fighting",
+          "year": 2015,
+          "hasProfile": false
+        },
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": false
+        }
+      ]
+    },
+    {
+      "id": "joon_yorigami",
+      "slug": "joon-yorigami",
+      "ko": "요리가미 조온",
+      "en": "Joon Yorigami",
+      "ja": "依神女苑",
+      "ability": "사람의 행운을 빼앗는 정도의 능력",
+      "title": "이질의 빈곤신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "antinomy-of-common-flowers",
+      "appearances": [
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "shion_yorigami",
+      "slug": "shion-yorigami",
+      "ko": "요리가미 시온",
+      "en": "Shion Yorigami",
+      "ja": "依神紫苑",
+      "ability": "사람에게 곤란을 일으키는 정도의 능력",
+      "title": "허망의 빈곤신",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "antinomy-of-common-flowers",
+      "appearances": [
+        {
+          "gameSlug": "antinomy-of-common-flowers",
+          "category": "fighting",
+          "year": 2017,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "hatate_himekaidou",
+      "slug": "hatate-himekaidou",
+      "ko": "히메카이도 하타테",
+      "en": "Hatate Himekaidou",
+      "ja": "姫海棠 はたて",
+      "ability": "염사를 사용하는 정도의 능력",
+      "title": "분리 신문의 텐구 기자",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "double-spoiler",
+      "appearances": [
+        {
+          "gameSlug": "double-spoiler",
+          "category": "side",
+          "year": 2010,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "sunny_milk",
+      "slug": "sunny-milk",
+      "ko": "서니 밀크",
+      "en": "Sunny Milk",
+      "ja": "サニーミルク",
+      "ability": "빛을 굴절시키는 정도의 능력",
+      "title": "햇빛을 만드는 요정",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "great-fairy-wars",
+      "appearances": [
+        {
+          "gameSlug": "great-fairy-wars",
+          "category": "side",
+          "year": 2010,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "luna_child",
+      "slug": "luna-child",
+      "ko": "루나 차일드",
+      "en": "Luna Child",
+      "ja": "ルナチャイルド",
+      "ability": "소리를 없애는 정도의 능력",
+      "title": "달의 어둠을 만드는 요정",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "great-fairy-wars",
+      "appearances": [
+        {
+          "gameSlug": "great-fairy-wars",
+          "category": "side",
+          "year": 2010,
+          "hasProfile": true
+        }
+      ]
+    },
+    {
+      "id": "star_sapphire",
+      "slug": "star-sapphire",
+      "ko": "스타 사파이어",
+      "en": "Star Sapphire",
+      "ja": "スターサファイア",
+      "ability": "움직임을 감지하는 정도의 능력",
+      "title": "별의 빛을 부르는 요정",
+      "species": null,
+      "location": null,
+      "personality": null,
+      "image": null,
+      "firstAppearanceSlug": "great-fairy-wars",
+      "appearances": [
+        {
+          "gameSlug": "great-fairy-wars",
+          "category": "side",
+          "year": 2010,
+          "hasProfile": true
+        }
+      ]
+    }
+  ]
+}
