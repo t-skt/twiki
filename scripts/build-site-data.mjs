@@ -270,6 +270,63 @@ export const CM_PROPS = ${props};
   return written;
 }
 
+// ── Stage 3: intro.mdx fusion-toc 블록 삽입/교체 (EMPOTENT) ─────────────
+const TOC_START = "{/* fusion-toc:start */}";
+const TOC_END = "{/* fusion-toc:end */}";
+
+function buildTocBlock(g) {
+  const base = `/twiki/docs/${g.category}/${g.slug}`;
+  const cards = [];
+  if (g.hasDialogue) cards.push(`- **스토리**: [대사/줄거리](${base}/dialogue/overview)`);
+  if (g.hasSpellCards) cards.push(`- **스펠카드**: [스펠카드 목록](${base}/spell-cards)`);
+  if (g.hasMusic) cards.push(`- **OST**: [게임 음악](${base}/music)`);
+  cards.push(`- **캐릭터**: 이 게임에 출연하는 캐릭터 프로필은 왼쪽 사이드바 \`캐릭터\` 섹션에서 확인하세요.`);
+  return [TOC_START, "## 📑 목차", ...cards, TOC_END].join("\n");
+}
+
+function injectFusionToc(games) {
+  let injected = 0;
+  for (const g of games) {
+    const file = path.join(DOCS, g.category, g.slug, "intro.mdx");
+    if (!fs.existsSync(file)) continue;
+    const orig = fs.readFileSync(file, "utf8");
+    const block = buildTocBlock(g);
+
+    let next;
+    const startIdx = orig.indexOf(TOC_START);
+    const endIdx = orig.indexOf(TOC_END);
+    if (startIdx !== -1 && endIdx !== -1 && endIdx > startIdx) {
+      // EMPOTENT: 기존 블록만 교체
+      next = orig.slice(0, startIdx) + block + orig.slice(endIdx + TOC_END.length);
+    } else {
+      // 최초 삽입: frontmatter 직후 (2번째 --- 다음)
+      const lines = orig.split("\n");
+      let dash = 0, insertAt = 0;
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].trim() === "---") {
+          dash++;
+          if (dash === 2) { insertAt = i + 1; break; }
+        }
+      }
+      lines.splice(insertAt, 0, "", block);
+      next = lines.join("\n");
+    }
+
+    // 본문 보존 검증 (N6): 기존 마커가 있었으면 마커 종료 이후 바이트 동일
+    if (startIdx !== -1 && endIdx !== -1) {
+      const origAfter = orig.slice(endIdx + TOC_END.length);
+      const nextAfter = next.slice(next.indexOf(TOC_END) + TOC_END.length);
+      if (origAfter !== nextAfter) {
+        fail(`본문 보존 실패: ${file} — fusion-toc:end 이후 내용이 변경됨`);
+      }
+    }
+
+    fs.writeFileSync(file, next);
+    injected++;
+  }
+  return injected;
+}
+
 // ── main ────────────────────────────────────────────────────────────────
 function main() {
   const games = buildGames();
@@ -277,14 +334,14 @@ function main() {
   const characters = buildCharacters(games);
 
   const written = emitCharacterMasters(characters, games);
-
+  const tocInjected = injectFusionToc(games);
   const publicChars = characters.map(({ _profileSlug, ...rest }) => rest);
   const siteData = { games, albums, characters: publicChars };
   const out = path.join(STATIC, "site-data.json");
   fs.mkdirSync(STATIC, { recursive: true });
   fs.writeFileSync(out, JSON.stringify(siteData, null, 2) + "\n");
   process.stdout.write(
-    `[build-site-data] OK: games=${games.length} albums=${albums.length} characters=${characters.length} → ${path.relative(ROOT, out)}\n`
+    `[build-site-data] OK: games=${games.length} albums=${albums.length} characters=${characters.length} toc=${tocInjected} → ${path.relative(ROOT, out)}\n`
   );
 }
 
