@@ -13,6 +13,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
+    "build:site-data": "node scripts/build-site-data.mjs",
+    "prebuild": "yarn build:site-data",
     "build:character-images-index": "node scripts/build-character-images-index.mjs",
     "e2e": "playwright test"
   },
