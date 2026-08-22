@@ -31,6 +31,12 @@ jobs:
       - name: Build site
         run: yarn build
 
+      - name: Derivative drift check (build-site-data reproducibility)
+        run: |
+          # prebuild(yarn build:site-data)가 docs/characters·static/site-data.json·intro.mdx fusion-toc을
+          # 재생성함. 커밋된 산출물과 일치하지 않으면 drift → 실패.
+          git diff --exit-code -- docs/characters static/site-data.json $(git ls-files 'docs/*/intro.mdx' 'docs/*/*/intro.mdx')
+
       - name: tdata.lock sanity check
         run: |
           test -f tdata.lock
