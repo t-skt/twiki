@@ -30,5 +30,9 @@ Thumbs.db
 # OMC session state (claude-code orchestration layer)
 .omc/
 
+# IA 리디자인 하네스 산출물 (세션 로컬, 커밋 대상 아님)
+_workspace/
+.claude/
+
 # Serena MCP cache (touhouwiki-kr 잔재)
 .serena/
