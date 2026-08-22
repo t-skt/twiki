@@ -4,3 +4,4 @@ export { default as MusicTrack } from './MusicTrack';
 export { default as CharacterProfile } from './CharacterProfile';
 export { default as ScenarioStage } from './ScenarioStage';
 export { SpellCardTable, SpellCardRow } from './SpellCard';
+export { default as CharacterMaster } from './CharacterMaster';
