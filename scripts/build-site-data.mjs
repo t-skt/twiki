@@ -329,6 +329,20 @@ function injectFusionToc(games) {
 
 // ── main ────────────────────────────────────────────────────────────────
 function main() {
+  // CI는 twiki만 체크아웃 → ../tdata 부재. 이 경우 커밋된 파생물을 그대로 유지.
+  // 로컬(tdata 동시 존재)에서만 tdata db/로부터 새로 도출.
+  const tdataAvailable = fs.existsSync(path.join(TDATA, "db", "games.json"));
+  if (!tdataAvailable) {
+    const committed = path.join(STATIC, "site-data.json");
+    if (fs.existsSync(committed)) {
+      process.stdout.write(
+        `[build-site-data] SKIP: tdata(${path.relative(ROOT, TDATA)}) 부재 — 커밋된 static/site-data.json 유지 (CI 모드)\n`
+      );
+      return;
+    }
+    fail("tdata missing, no committed site-data.json. Run build:site-data locally with tdata present.");
+  }
+
   const games = buildGames();
   const albums = buildAlbums();
   const characters = buildCharacters(games);
