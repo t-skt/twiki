@@ -1,27 +1,12 @@
 {
-  "commit": "6752e487c8be",
   "schema_version": "1.0.0",
   "generated_at": "1970-01-01T00:00:00Z",
-  "sources": {
-    "thpatch": {
-      "cache_key": "git:435137ca0cb6",
-      "license": "thpatch.net translation CC-BY-SA, game content © ZUN/Team Shanghai Alice"
-    },
-    "legacy_v2": {
-      "cache_key": "sha256:a26a5c6c82f0b242",
-      "license": "fan compilation (touhou_normalized_v2)"
-    },
-    "manual": {
-      "cache_key": "sha256:229b7092d45785d1",
-      "license": "user-provided"
-    }
+  "files": {
+    "games.json": "d910ea1a10219b28",
+    "characters.json": "898fbcd2c490eeaf"
   },
   "entity_counts": {
     "games": 28,
-    "characters": 302,
-    "albums": 28,
-    "tracks": 272,
-    "books": 0
-  },
-  "db_sha256": "23c3bccf4b794ccd"
+    "characters": 302
+  }
 }
