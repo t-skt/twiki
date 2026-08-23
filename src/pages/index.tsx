@@ -176,12 +176,11 @@ export default function Home() {
   });
 
   return (
-    <Layout title="동방 한국어 위키" description="동방 프로젝트 한국어 위키 — tdata SSOT 기반">
+    <Layout title="동방 한국어 위키" description="동방 프로젝트 한국어 위키 — 게임·캐릭터·음악">
       <main style={{ padding: "2rem", maxWidth: 1100, margin: "0 auto" }}>
         <Heading as="h1">동방 한국어 위키</Heading>
         <p style={{ fontSize: "1.05rem", lineHeight: 1.7 }}>
-          동방 프로젝트의 게임·캐릭터·음악 정보를 모은 한국어 위키입니다. 모든 데이터는{" "}
-          <a href="https://github.com/t-skt/tdata">t-skt/tdata</a>에서 생성됩니다.
+          동방 프로젝트의 게임·캐릭터·음악 정보를 모은 한국어 위키입니다.
         </p>
 
         {/* 검색 + 뷰 토글 */}
