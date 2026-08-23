@@ -629,10 +629,17 @@ details.japanese-original .japanese-original__content {
   gap: 8px;
   text-decoration: none;
   color: inherit;
+  min-width: 0;
 }
 
 .fusion-toc__scenario-card strong {
   font-weight: 700;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  min-width: 0;
+}
+.fusion-toc__scenario-card > span {
+  flex-shrink: 0;
 }
 
 .fusion-toc__char-grid {
@@ -651,6 +658,9 @@ details.japanese-original .japanese-original__content {
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 4px;
+  overflow-wrap: break-word;
+  word-break: keep-all;
+  line-height: 1.3;
 }
 
 .fusion-toc__char-card p {
