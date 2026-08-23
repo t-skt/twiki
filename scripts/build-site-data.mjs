@@ -321,20 +321,6 @@ function buildTocBlock(g) {
     lines.push(`<div class="fusion-toc">`);
   }
 
-  if (g.hasDialogue && charSlugs.length > 0) {
-    const scenarioCards = charSlugs.map(
-      (slug) =>
-        `      <a class="fusion-toc__scenario-card" href="${base}/characters/${slug}"><strong>${charKo(slug)}</strong><span>프로필 →</span></a>`
-    );
-    lines.push(
-      `  <div class="fusion-toc__section" id="gm-story">`,
-      `    <h3>스토리</h3>`,
-      `    <div class="fusion-toc__scenario-grid">`,
-      ...scenarioCards,
-      `    </div>`,
-      `  </div>`
-    );
-  }
 
   if (charSlugs.length > 0) {
     const charCards = charSlugs.map((slug) => {
