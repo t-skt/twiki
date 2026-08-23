@@ -37,10 +37,10 @@ jobs:
           # 재생성함. 커밋된 산출물과 일치하지 않으면 drift → 실패.
           git diff --exit-code -- docs/characters static/site-data.json $(git ls-files 'docs/*/intro.mdx' 'docs/*/*/intro.mdx')
 
-      - name: tdata.lock sanity check
+      - name: data.lock sanity check
         run: |
-          test -f tdata.lock
-          jq -e '.schema_version' tdata.lock
+          test -f _data/site-source/data.lock
+          jq -e '.schema_version' _data/site-source/data.lock
 
       - uses: actions/upload-pages-artifact@v3
         with:
