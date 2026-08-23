@@ -1,0 +1,3851 @@
+{
+  "schema_version": "0.1.0",
+  "games": [
+    {
+      "id": "embodiment_of_scarlet_devil",
+      "code": "th06",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Koumakyou ~ the Embodiment of Scarlet Devil",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方紅魔郷 ~ the Embodiment of Scarlet Devil",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방홍마향 ~ the Embodiment of Scarlet Devil",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2002-08-11",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "안개의 호수",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "霧の湖",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "홍마향 입구",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "紅魔郷の入口",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "환상의 정원",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "幻想の庭",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "마법 도서관",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "魔法図書館",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "시간 잠긴 시계탑",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "時計の動く塔",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "다리 위의 결전",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "橋上の決戦",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "환상의 정원 재방문",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "幻想の庭再訪",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 8,
+          "name": {
+            "ko": {
+              "value": "최종 단계",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "最終ステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "cirno",
+          "daiyousei",
+          "flandre_scarlet",
+          "hong_meiling",
+          "koakuma",
+          "patchouli_knowledge",
+          "remilia_scarlet",
+          "rumia",
+          "sakuya_izayoi",
+          "marisa_kirisame",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "perfect_cherry_blossom",
+      "code": "th07",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Youyoumu ~ Perfect Cherry Blossom",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方妖々夢 ~ Perfect Cherry Blossom",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방요요몽 ~ Perfect Cherry Blossom",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2003-08-17",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "춘설이상",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "春雪異変",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "마경의 인형",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "魔郷の人形",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "환상악단",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "幻想楽団",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "지옥의 망향",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "冥界の境界",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "지옥의 인",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "白玉楼の階段",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "백옥루",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "白玉楼",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "환상의 경계",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "幻想の境",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 8,
+          "name": {
+            "ko": {
+              "value": "환상의 결계",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "幻想の結界",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "alice_margatroid",
+          "chen",
+          "letty_whiterock",
+          "lily_white",
+          "lunasa_prismriver",
+          "lyrica_prismriver",
+          "merlin_prismriver",
+          "ran_yakumo",
+          "youmu_konpaku",
+          "yukari_yakumo",
+          "yuyuko_saigyouji",
+          "marisa_kirisame",
+          "sakuya_izayoi",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "imperishable_night",
+      "code": "th08",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Eiyashou ~ Imperishable Night",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方永夜抄 ~ Imperishable Night",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방영야초 ~ Imperishable Night",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2004-08-15",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "밤안개의 길",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "夜霧の蛍火",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "어둠의 산길",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "夜雀の食事",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "역사의 마을",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "歴史喰いの半獣",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "영원의 죽림",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "永遠の竹林",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "광기의 시야",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "狂気の瞳",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "영원정",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "永遠亭",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "eirin_yagokoro",
+          "fujiwara_no_mokou",
+          "kaguya_houraisan",
+          "keine_kamishirasawa",
+          "mystia_lorelei",
+          "reisen_udongein_inaba",
+          "tewi_inaba",
+          "wriggle_nightbug",
+          "yuyuko_saigyouji",
+          "marisa_kirisame",
+          "yukari_yakumo",
+          "sakuya_izayoi",
+          "remilia_scarlet",
+          "youmu_konpaku",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "phantasmagoria_of_flower_view",
+      "code": "th09",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Kaeidzuka ~ Phantasmagoria of Flower View",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方花映塚 ~ Phantasmagoria of Flower View",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방화영총",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2005-08-14",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "1면",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "1面",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "2면",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "2面",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "3면",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "3面",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "4면",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "4面",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "5면",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "5面",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "6면",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "6面",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "7면",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "7面",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 8,
+          "name": {
+            "ko": {
+              "value": "8면",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "8面",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 9,
+          "name": {
+            "ko": {
+              "value": "최종 면",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "最終面",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "eiki_shiki_yamaxanadu",
+          "komachi_onozuka",
+          "medicine_melancholy",
+          "yuuka_kazami",
+          "marisa_kirisame",
+          "reisen_udongein_inaba",
+          "sakuya_izayoi",
+          "youmu_konpaku",
+          "tewi_inaba",
+          "aya_shameimaru",
+          "lyrica_prismriver",
+          "cirno",
+          "mystia_lorelei",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "mountain_of_faith",
+      "code": "th10",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Fuujinroku ~ Mountain of Faith",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方風神録 ~ Mountain of Faith",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방풍신록 ~ Mountain of Faith",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2007-08-17",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "신비한 가을 하늘",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "ふしぎな秋の空",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "산자락 흩어진 황혼",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "妖怪の山",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "강가의 길",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "風に乗る天狗",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "산의 정상의 신사",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "山の神社",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "정상의 산소",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "守矢神社",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "전설의 신",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "伝説の神",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "hina_kagiyama",
+          "kanako_yasaka",
+          "minoriko_aki",
+          "momiji_inubashiri",
+          "nitori_kawashiro",
+          "sanae_kochiya",
+          "shizuha_aki",
+          "suwako_moriya",
+          "marisa_kirisame",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "subterranean_animism",
+      "code": "th11",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Chireiden ~ Subterranean Animism",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方地霊殿 ~ Subterranean Animism",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방지령전 ~ Subterranean Animism",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2008-08-16",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "환상의 지하세계로",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "妖怪達の二重弾幕",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "지하수와 흙거미",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "地底の太陽信仰",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "지하도시의 길거리",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "渡る者の途絶えた橋",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "옛 도읍의 술잔치",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "燃えるが如く赤い眼",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "지령전의 입구",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "灼熱地獄の遺跡",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "지하의 태양",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "地霊達の心の底",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "kisume",
+          "koishi_komeiji",
+          "parsee_mizuhashi",
+          "rin_kaenbyou",
+          "satori_komeiji",
+          "utsuho_reiuji",
+          "yamame_kurodani",
+          "yuugi_hoshiguma",
+          "alice_margatroid",
+          "marisa_kirisame",
+          "yukari_yakumo",
+          "patchouli_knowledge",
+          "suika_ibuki",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "undefined_fantastic_object",
+      "code": "th12",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Seirensen ~ Undefined Fantastic Object",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方星蓮船 ~ Undefined Fantastic Object",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방성련선 ~ Undefined Fantastic Object",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2009-08-15",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "어딘가의 비행정",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "春の湊に舟の影",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "안개의 호수",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "雲に潜む大入道",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "구름의 위",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "雲の上の桜と虎",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "역의 절",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "逆転するモータルとイモータル",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "성련선",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "封印された大魔法使い",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "보물선의 비밀",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "宝船の塒",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "byakuren_hijiri",
+          "ichirin_kumoi",
+          "kogasa_tatara",
+          "minamitsu_murasa",
+          "nazrin",
+          "nue_houjuu",
+          "shou_toramaru",
+          "unzan",
+          "marisa_kirisame",
+          "reimu_hakurei",
+          "sanae_kochiya"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "ten_desires",
+      "code": "th13",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Shinreibyou ~ Ten Desires",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方神霊廟 ~ Ten Desires",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방신령묘 ~ Ten Desires",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2011-08-13",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "봄의 망령들",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "春の湊に靡く幻霊",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "강시들의 행렬",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "死霊のレクイエム",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "묘지의 입구",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "死から始まる恋",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "도교의 도사",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "聖徳道士",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "신령묘",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "神霊廟",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "성덕왕의 부활",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "聖徳王の復活",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "kyouko_kasodani",
+          "mamizou_futatsuiwa",
+          "mononobe_no_futo",
+          "seiga_kaku",
+          "soga_no_tojiko",
+          "toyosatomimi_no_miko",
+          "yoshika_miyako",
+          "marisa_kirisame",
+          "youmu_konpaku",
+          "reimu_hakurei",
+          "sanae_kochiya"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "double_dealing_character",
+      "code": "th14",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Kishinjou ~ Double Dealing Character",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方輝針城 ~ Double Dealing Character",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방휘침성 ~ Double Dealing Character",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2013-08-12",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "단풍과 안개의 흐름",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "錦秋、湖上の小宴",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "이변의 표면화",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "里の若人之怪",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "옛 도구의 봉기",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "雨に煙る山",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "휘침성",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "宝船浮かぶ城",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "전설의 작은 망치",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "あちらに見えるは…",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "잇슨보시의 야망",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "リバースイデオロギー",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "benben_tsukumo",
+          "kagerou_imaizumi",
+          "raiko_horikawa",
+          "seija_kijin",
+          "sekibanki",
+          "shinmyoumaru_sukuna",
+          "wakasagihime",
+          "yatsuhashi_tsukumo",
+          "marisa_kirisame",
+          "sakuya_izayoi",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "legacy_of_lunatic_kingdom",
+      "code": "th15",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Kanjuden ~ Legacy of Lunatic Kingdom",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方紺珠伝 ~ Legacy of Lunatic Kingdom",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방감주전 ~ Legacy of Lunatic Kingdom",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2015-08-14",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "환상의 동방",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "宇宙からのフォーリンエンジェル",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "달의 침공",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "湖は浄土の如く美しく",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "달의 도시",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "夢と現の境界",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "꿈의 세계",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "幻想を切り裂く形而上の弾丸",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "달의 도읍",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "凶弾、神柱を撃ち抜く",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "감주의 비밀",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "嫦娥の隠し都",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "clownpiece",
+          "doremy_sweet",
+          "hecatia_lapislazuli",
+          "junko",
+          "ringo",
+          "sagume_kishin",
+          "seiran",
+          "marisa_kirisame",
+          "reimu_hakurei",
+          "sanae_kochiya"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "hidden_star_in_four_seasons",
+      "code": "th16",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Tenkuushou ~ Hidden Star in Four Seasons",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方天空璋 ~ Hidden Star in Four Seasons",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방천공장 ~ Hidden Star in Four Seasons",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2017-08-11",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "여름과 가을의 길",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "夏の妖精総出",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "이상한 사계",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "妖怪達の遅すぎる夏",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "마계의 절",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "山奥の天狗の里",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "결투의 자리",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "禁断の魔界寺",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "후방의 비밀의 신",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "夢に張り出した結界",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "후문의 신",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "天空のフェアリー",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "aunn_komano",
+          "eternity_larva",
+          "mai_teireida",
+          "narumi_yatadera",
+          "nemuno_sakata",
+          "okina_matara",
+          "satono_nishida",
+          "marisa_kirisame",
+          "aya_shameimaru",
+          "cirno",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "wily_beast_and_weakest_creature",
+      "code": "th17",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Kikeijuu ~ Wily Beast and Weakest Creature",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方鬼形獣 ~ Wily Beast and Weakest Creature",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방귀형수 ~ Wily Beast and Weakest Creature",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2019-05-05",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "지하의 입구",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "地獄の地中の何処よりも遠い場所",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "삼도내",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "畜生界の双河",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "축생계의 입구",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "鬼のように強い動物霊",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "축생계의 도읍",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "悪夢の地獄",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "지옥과 가까운 산",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "畜生界精神理解",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "축생계의 보스",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "聖徳太子のペガサス",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "eagle_spirit",
+          "eika_ebisu",
+          "keiki_haniyasushin",
+          "kutaka_niwatari",
+          "mayumi_joutouguu",
+          "otter_spirit",
+          "saki_kurokoma",
+          "urumi_ushizaki",
+          "wolf_spirit",
+          "yachie_kicchou",
+          "marisa_kirisame",
+          "youmu_konpaku",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "unconnected_marketeers",
+      "code": "th18",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Kouryuudou ~ Unconnected Marketeers",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方虹龍洞 ~ Unconnected Marketeers",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방홍룡동 ~ Unconnected Marketeers",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2021-05-04",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "이변의 시작",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "山の麓の店",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "산속의 등산",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "天狗の山道",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "텐구의 자리",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "神霊が住む山頂",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "홍룡동의 입구",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "虹龍洞へ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "지하 카드 시장",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "地下のカード市場",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "홍룡동의 보스",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "虹龍洞の女神",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "chimata_tenkyuu",
+          "megumu_iizunamaru",
+          "mike_goutokuji",
+          "misumaru_tamatsukuri",
+          "momoyo_himemushi",
+          "sannyo_komakusa",
+          "takane_yamashiro",
+          "tsukasa_kudamaki",
+          "marisa_kirisame",
+          "sakuya_izayoi",
+          "reimu_hakurei",
+          "sanae_kochiya"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "unfinished_dream_of_all_living_ghost",
+      "code": "th19",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Juuouen ~ Unfinished Dream of All Living Ghost",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方獣王園 ~ Unfinished Dream of All Living Ghost",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방수왕원 ~ Unfinished Dream of All Living Ghost",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2024-08-12",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "수왕원 1전",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "獣王園 第一戦",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "수왕원 2전",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "獣王園 第二戦",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "수왕원 3전",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "獣王園 第三戦",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "수왕원 4전",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "獣王園 第四戦",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "수왕원 5전",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "獣王園 第五戦",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "수왕원 결승",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "獣王園 決勝",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "biten_son",
+          "chiyari_tenkajin",
+          "enoko_mitsugashira",
+          "hisami_yomotsu",
+          "zanmu_nippaku",
+          "mike_goutokuji",
+          "marisa_kirisame",
+          "megumu_iizunamaru",
+          "sumireko_usami",
+          "sannyo_komakusa",
+          "tsukasa_kudamaki",
+          "takane_yamashiro",
+          "reimu_hakurei",
+          "sanae_kochiya"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "fossilized_wonders",
+      "code": "th20",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Kinjouken ~ Fossilized Wonders",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方錦上京 ~ Fossilized Wonders",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방금상경 ~ Fossilized Wonders",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2025-05-04",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "돌무더기 길",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "石ころの道",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "고대의 강가",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "古代の河原",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "화석의 산",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "化石の山",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "보석의 동굴",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "宝石の洞窟",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "쓰레기더미의 그늘",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "塵塚の影",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "금상경의 보스",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "錦上京の頂",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "ariya_iwanaga",
+          "chimi_houju",
+          "nareko_michigami",
+          "nina_watari",
+          "ubame_chirizuka",
+          "yuiman_asama",
+          "marisa_kirisame",
+          "sakuya_izayoi",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "immaterial_and_missing_power",
+      "code": "th075",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Suimusou ~ Immaterial and Missing Power",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方萃夢想 ~ Immaterial and Missing Power",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방췌몽상 ~ Immaterial and Missing Power",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2004-12-30",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "suika_ibuki",
+          "yuyuko_saigyouji",
+          "alice_margatroid",
+          "marisa_kirisame",
+          "yukari_yakumo",
+          "patchouli_knowledge",
+          "sakuya_izayoi",
+          "remilia_scarlet",
+          "youmu_konpaku",
+          "meiling",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "scarlet_weather_rhapsody",
+      "code": "th105",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Hisouten ~ Scarlet Weather Rhapsody",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方緋想天 ~ Scarlet Weather Rhapsody",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방비상천 ~ Scarlet Weather Rhapsody",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2008-05-25",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "iku_nagae",
+          "tenshi_hinanawi",
+          "yuyuko_saigyouji",
+          "alice_margatroid",
+          "marisa_kirisame",
+          "reisen_udongein_inaba",
+          "yukari_yakumo",
+          "patchouli_knowledge",
+          "suika_ibuki",
+          "sakuya_izayoi",
+          "remilia_scarlet",
+          "youmu_konpaku",
+          "aya_shameimaru",
+          "komachi_onozuka",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "hisoutensoku",
+      "code": "th123",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Hisoutensoku ~ Chouyoku no Nensha Tai",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方非想天則 ~ Touhou Hisoutensoku",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방비상천칙 ~ Touhou Hisoutensoku",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2009-08-15",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "alice_margatroid",
+          "iku_nagae",
+          "suwako_moriya",
+          "tenshi_hinanawi",
+          "yuyuko_saigyouji",
+          "reisen_udongein_inaba",
+          "yukari_yakumo",
+          "sakuya_izayoi",
+          "remilia_scarlet",
+          "utsuho_reiuji",
+          "suika_ibuki",
+          "cirno",
+          "reimu_hakurei",
+          "sanae_kochiya",
+          "marisa_kirisame",
+          "patchouli_knowledge",
+          "komachi_onozuka",
+          "youmu_konpaku",
+          "aya_shameimaru",
+          "meiling"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "hopeless_masquerade",
+      "code": "th135",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Shinkirou ~ Hopeless Masquerade",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方心綺楼 ~ Hopeless Masquerade",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방심기루 ~ Hopeless Masquerade",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2013-05-26",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "hata_no_kokoro",
+          "byakuren_hijiri",
+          "marisa_kirisame",
+          "koishi_komeiji",
+          "kokoro_hata",
+          "miko_toyosatomimi",
+          "nitori_kawashiro",
+          "ichirin_kumoi",
+          "reimu_hakurei",
+          "futo_mononobe",
+          "mamizou_futatsuiwa"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "urban_legend_in_limbo",
+      "code": "th145",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Shinpiroku ~ Urban Legend in Limbo",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方深秘録 ~ Urban Legend in Limbo",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방심비록 ~ Urban Legend in Limbo",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2015-05-10",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "sumireko_usami",
+          "byakuren_hijiri",
+          "marisa_kirisame",
+          "koishi_komeiji",
+          "kokoro_hata",
+          "miko_toyosatomimi",
+          "kasen_ibaraki",
+          "shinmyoumaru_sukuna",
+          "nitori_kawashiro",
+          "ichirin_kumoi",
+          "reimu_hakurei",
+          "futo_mononobe",
+          "mamizou_futatsuiwa"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "antinomy_of_common_flowers",
+      "code": "th155",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Hyouibana ~ Antinomy of Common Flowers",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方憑依華 ~ Antinomy of Common Flowers",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방빙의화 ~ Antinomy of Common Flowers",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2017-12-29",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "joon_yorigami",
+          "shion_yorigami",
+          "byakuren_hijiri",
+          "marisa_kirisame",
+          "iku_nagae",
+          "koishi_komeiji",
+          "kokoro_hata",
+          "miko_toyosatomimi",
+          "sumireko_usami",
+          "kasen_ibaraki",
+          "yukari_yakumo",
+          "shinmyoumaru_sukuna",
+          "nitori_kawashiro",
+          "tenshi_hinanawi",
+          "ichirin_kumoi",
+          "reimu_hakurei",
+          "futo_mononobe",
+          "mamizou_futatsuiwa"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "touhou_gouyoku_ibun",
+      "code": "th175",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Gouyoku Ibun ~ Sunken Fossil World",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方剛欲異聞 ~ 水没した沈愁地獄",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방강욕이문",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2022-05-08",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "yuyuko_saigyouji",
+          "yuuka_kazami",
+          "marisa_kirisame",
+          "junko",
+          "yukari_yakumo",
+          "suika_ibuki",
+          "sakuya_izayoi",
+          "remilia_scarlet",
+          "youmu_konpaku",
+          "aya_shameimaru",
+          "miko_toyosatomimi",
+          "reimu_hakurei"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "shoot_the_bullet",
+      "code": "th095",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Touhou Bunkachou ~ Shoot the Bullet",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "東方文花帖 ~ Shoot the Bullet",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "동방문화첩 ~ Shoot the Bullet",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2005-12-30",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "aya_shameimaru"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "double_spoiler",
+      "code": "th125",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Double Spoiler ~ Touhou Bunkachou",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "ダブルスポイラー ~ 東方文花帖",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "더블 스포일러",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2010-03-14",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "hatate_himekaidou",
+          "aya_shameimaru"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "great_fairy_wars",
+      "code": "th128",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Fairy Wars ~ Touhou Sangetsusei",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "妖精大戦争 ~ 東方三月精",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "요정대전쟁",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2010-08-14",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "stages": [
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 1,
+          "name": {
+            "ko": {
+              "value": "안개의 호수의 봄",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "霧の湖の春",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 2,
+          "name": {
+            "ko": {
+              "value": "마법의 숲 길",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "魔法の森の道",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 3,
+          "name": {
+            "ko": {
+              "value": "구름 위",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "雲の上",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 4,
+          "name": {
+            "ko": {
+              "value": "달의 어둠 속",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "月の闇の中",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 5,
+          "name": {
+            "ko": {
+              "value": "햇빛 평원",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "日光の平原",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 6,
+          "name": {
+            "ko": {
+              "value": "삼월정의 거처",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "三月精の住処",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          }
+        },
+        {
+          "_meta": {
+            "source": "manual"
+          },
+          "number": 7,
+          "name": {
+            "ko": {
+              "value": "추가 모드",
+              "_meta": {
+                "source": "manual"
+              }
+            },
+            "ja": {
+              "value": "エキストラステージ",
+              "_meta": {
+                "source": "manual"
+              }
+            }
+          },
+          "is_extra": true
+        }
+      ],
+      "character_ids": {
+        "value": [
+          "lily_white",
+          "sunny_milk",
+          "marisa_kirisame",
+          "luna_child",
+          "cirno",
+          "daiyousei",
+          "star_sapphire"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "impossible_spell_card",
+      "code": "th143",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Danmaku Amanojaku ~ Impossible Spell Card",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "弾幕アマノジャク ~ Impossible Spell Card",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "탄막 아마노자쿠 ~ Impossible Spell Card",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2014-12-29",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "seija_kijin",
+          "shinmyoumaru_sukuna"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "violet_detector",
+      "code": "th165",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Hifuu Nightmare Diary ~ Violet Detector",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "秘封ナイトメアダイアリー ~ Violet Detector",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "비봉 나이트메어 다이어리 ~ Violet Detector",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2018-08-10",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "sumireko_usami"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    },
+    {
+      "id": "bullet_filia",
+      "code": "th185",
+      "schema_version": "0.1.0",
+      "name": {
+        "en": {
+          "value": "Bullet Filia's Black Market ~ 100th Black Market",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ja": {
+          "value": "バレットフィリア達の闇市場 ~ 100th Black Market",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        },
+        "ko": {
+          "value": "불릿필리아들의 암시장 ~ 100th Black Market",
+          "_meta": {
+            "source": "manual",
+            "confidence": 1.0
+          }
+        }
+      },
+      "release_date": {
+        "value": "2023-08-13",
+        "_meta": {
+          "source": "manual",
+          "confidence": 1.0
+        }
+      },
+      "character_ids": {
+        "value": [
+          "marisa_kirisame",
+          "megumu_iizunamaru",
+          "sakuya_izayoi",
+          "tsukasa_kudamaki",
+          "biten_son",
+          "reimu_hakurei",
+          "zanmu_nippaku",
+          "enoko_mitsugashira",
+          "sanae_kochiya"
+        ],
+        "_meta": {
+          "source": "legacy_v2"
+        }
+      }
+    }
+  ]
+}

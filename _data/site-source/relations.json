@@ -1,0 +1,2057 @@
+{
+  "schema_version": "0.1.0",
+  "relations": {
+    "game_character": {
+      "embodiment_of_scarlet_devil": [
+        "cirno",
+        "daiyousei",
+        "flandre_scarlet",
+        "hong_meiling",
+        "koakuma",
+        "patchouli_knowledge",
+        "remilia_scarlet",
+        "rumia",
+        "sakuya_izayoi",
+        "marisa_kirisame",
+        "reimu_hakurei"
+      ],
+      "perfect_cherry_blossom": [
+        "alice_margatroid",
+        "chen",
+        "letty_whiterock",
+        "lily_white",
+        "lunasa_prismriver",
+        "lyrica_prismriver",
+        "merlin_prismriver",
+        "ran_yakumo",
+        "youmu_konpaku",
+        "yukari_yakumo",
+        "yuyuko_saigyouji",
+        "marisa_kirisame",
+        "sakuya_izayoi",
+        "reimu_hakurei"
+      ],
+      "imperishable_night": [
+        "eirin_yagokoro",
+        "fujiwara_no_mokou",
+        "kaguya_houraisan",
+        "keine_kamishirasawa",
+        "mystia_lorelei",
+        "reisen_udongein_inaba",
+        "tewi_inaba",
+        "wriggle_nightbug",
+        "yuyuko_saigyouji",
+        "marisa_kirisame",
+        "yukari_yakumo",
+        "sakuya_izayoi",
+        "remilia_scarlet",
+        "youmu_konpaku",
+        "reimu_hakurei"
+      ],
+      "phantasmagoria_of_flower_view": [
+        "eiki_shiki_yamaxanadu",
+        "komachi_onozuka",
+        "medicine_melancholy",
+        "yuuka_kazami",
+        "marisa_kirisame",
+        "reisen_udongein_inaba",
+        "sakuya_izayoi",
+        "youmu_konpaku",
+        "tewi_inaba",
+        "aya_shameimaru",
+        "lyrica_prismriver",
+        "cirno",
+        "mystia_lorelei",
+        "reimu_hakurei"
+      ],
+      "mountain_of_faith": [
+        "hina_kagiyama",
+        "kanako_yasaka",
+        "minoriko_aki",
+        "momiji_inubashiri",
+        "nitori_kawashiro",
+        "sanae_kochiya",
+        "shizuha_aki",
+        "suwako_moriya",
+        "marisa_kirisame",
+        "reimu_hakurei"
+      ],
+      "subterranean_animism": [
+        "kisume",
+        "koishi_komeiji",
+        "parsee_mizuhashi",
+        "rin_kaenbyou",
+        "satori_komeiji",
+        "utsuho_reiuji",
+        "yamame_kurodani",
+        "yuugi_hoshiguma",
+        "alice_margatroid",
+        "marisa_kirisame",
+        "yukari_yakumo",
+        "patchouli_knowledge",
+        "suika_ibuki",
+        "reimu_hakurei"
+      ],
+      "undefined_fantastic_object": [
+        "byakuren_hijiri",
+        "ichirin_kumoi",
+        "kogasa_tatara",
+        "minamitsu_murasa",
+        "nazrin",
+        "nue_houjuu",
+        "shou_toramaru",
+        "unzan",
+        "marisa_kirisame",
+        "reimu_hakurei",
+        "sanae_kochiya"
+      ],
+      "ten_desires": [
+        "kyouko_kasodani",
+        "mamizou_futatsuiwa",
+        "mononobe_no_futo",
+        "seiga_kaku",
+        "soga_no_tojiko",
+        "toyosatomimi_no_miko",
+        "yoshika_miyako",
+        "marisa_kirisame",
+        "youmu_konpaku",
+        "reimu_hakurei",
+        "sanae_kochiya"
+      ],
+      "double_dealing_character": [
+        "benben_tsukumo",
+        "kagerou_imaizumi",
+        "raiko_horikawa",
+        "seija_kijin",
+        "sekibanki",
+        "shinmyoumaru_sukuna",
+        "wakasagihime",
+        "yatsuhashi_tsukumo",
+        "marisa_kirisame",
+        "sakuya_izayoi",
+        "reimu_hakurei"
+      ],
+      "legacy_of_lunatic_kingdom": [
+        "clownpiece",
+        "doremy_sweet",
+        "hecatia_lapislazuli",
+        "junko",
+        "ringo",
+        "sagume_kishin",
+        "seiran",
+        "marisa_kirisame",
+        "reimu_hakurei",
+        "sanae_kochiya"
+      ],
+      "hidden_star_in_four_seasons": [
+        "aunn_komano",
+        "eternity_larva",
+        "mai_teireida",
+        "narumi_yatadera",
+        "nemuno_sakata",
+        "okina_matara",
+        "satono_nishida",
+        "marisa_kirisame",
+        "aya_shameimaru",
+        "cirno",
+        "reimu_hakurei"
+      ],
+      "wily_beast_and_weakest_creature": [
+        "eagle_spirit",
+        "eika_ebisu",
+        "keiki_haniyasushin",
+        "kutaka_niwatari",
+        "mayumi_joutouguu",
+        "otter_spirit",
+        "saki_kurokoma",
+        "urumi_ushizaki",
+        "wolf_spirit",
+        "yachie_kicchou",
+        "marisa_kirisame",
+        "youmu_konpaku",
+        "reimu_hakurei"
+      ],
+      "unconnected_marketeers": [
+        "chimata_tenkyuu",
+        "megumu_iizunamaru",
+        "mike_goutokuji",
+        "misumaru_tamatsukuri",
+        "momoyo_himemushi",
+        "sannyo_komakusa",
+        "takane_yamashiro",
+        "tsukasa_kudamaki",
+        "marisa_kirisame",
+        "sakuya_izayoi",
+        "reimu_hakurei",
+        "sanae_kochiya"
+      ],
+      "unfinished_dream_of_all_living_ghost": [
+        "biten_son",
+        "chiyari_tenkajin",
+        "enoko_mitsugashira",
+        "hisami_yomotsu",
+        "zanmu_nippaku",
+        "mike_goutokuji",
+        "marisa_kirisame",
+        "megumu_iizunamaru",
+        "sumireko_usami",
+        "sannyo_komakusa",
+        "tsukasa_kudamaki",
+        "takane_yamashiro",
+        "reimu_hakurei",
+        "sanae_kochiya"
+      ],
+      "fossilized_wonders": [
+        "ariya_iwanaga",
+        "chimi_houju",
+        "nareko_michigami",
+        "nina_watari",
+        "ubame_chirizuka",
+        "yuiman_asama",
+        "marisa_kirisame",
+        "sakuya_izayoi",
+        "reimu_hakurei"
+      ],
+      "immaterial_and_missing_power": [
+        "suika_ibuki",
+        "yuyuko_saigyouji",
+        "alice_margatroid",
+        "marisa_kirisame",
+        "yukari_yakumo",
+        "patchouli_knowledge",
+        "sakuya_izayoi",
+        "remilia_scarlet",
+        "youmu_konpaku",
+        "meiling",
+        "reimu_hakurei"
+      ],
+      "scarlet_weather_rhapsody": [
+        "iku_nagae",
+        "tenshi_hinanawi",
+        "yuyuko_saigyouji",
+        "alice_margatroid",
+        "marisa_kirisame",
+        "reisen_udongein_inaba",
+        "yukari_yakumo",
+        "patchouli_knowledge",
+        "suika_ibuki",
+        "sakuya_izayoi",
+        "remilia_scarlet",
+        "youmu_konpaku",
+        "aya_shameimaru",
+        "komachi_onozuka",
+        "reimu_hakurei"
+      ],
+      "hisoutensoku": [
+        "alice_margatroid",
+        "iku_nagae",
+        "suwako_moriya",
+        "tenshi_hinanawi",
+        "yuyuko_saigyouji",
+        "reisen_udongein_inaba",
+        "yukari_yakumo",
+        "sakuya_izayoi",
+        "remilia_scarlet",
+        "utsuho_reiuji",
+        "suika_ibuki",
+        "cirno",
+        "reimu_hakurei",
+        "sanae_kochiya",
+        "marisa_kirisame",
+        "patchouli_knowledge",
+        "komachi_onozuka",
+        "youmu_konpaku",
+        "aya_shameimaru",
+        "meiling"
+      ],
+      "hopeless_masquerade": [
+        "hata_no_kokoro",
+        "byakuren_hijiri",
+        "marisa_kirisame",
+        "koishi_komeiji",
+        "kokoro_hata",
+        "miko_toyosatomimi",
+        "nitori_kawashiro",
+        "ichirin_kumoi",
+        "reimu_hakurei",
+        "futo_mononobe",
+        "mamizou_futatsuiwa"
+      ],
+      "urban_legend_in_limbo": [
+        "sumireko_usami",
+        "byakuren_hijiri",
+        "marisa_kirisame",
+        "koishi_komeiji",
+        "kokoro_hata",
+        "miko_toyosatomimi",
+        "kasen_ibaraki",
+        "shinmyoumaru_sukuna",
+        "nitori_kawashiro",
+        "ichirin_kumoi",
+        "reimu_hakurei",
+        "futo_mononobe",
+        "mamizou_futatsuiwa"
+      ],
+      "antinomy_of_common_flowers": [
+        "joon_yorigami",
+        "shion_yorigami",
+        "byakuren_hijiri",
+        "marisa_kirisame",
+        "iku_nagae",
+        "koishi_komeiji",
+        "kokoro_hata",
+        "miko_toyosatomimi",
+        "sumireko_usami",
+        "kasen_ibaraki",
+        "yukari_yakumo",
+        "shinmyoumaru_sukuna",
+        "nitori_kawashiro",
+        "tenshi_hinanawi",
+        "ichirin_kumoi",
+        "reimu_hakurei",
+        "futo_mononobe",
+        "mamizou_futatsuiwa"
+      ],
+      "touhou_gouyoku_ibun": [
+        "yuyuko_saigyouji",
+        "yuuka_kazami",
+        "marisa_kirisame",
+        "junko",
+        "yukari_yakumo",
+        "suika_ibuki",
+        "sakuya_izayoi",
+        "remilia_scarlet",
+        "youmu_konpaku",
+        "aya_shameimaru",
+        "miko_toyosatomimi",
+        "reimu_hakurei"
+      ],
+      "shoot_the_bullet": [
+        "aya_shameimaru"
+      ],
+      "double_spoiler": [
+        "hatate_himekaidou",
+        "aya_shameimaru"
+      ],
+      "great_fairy_wars": [
+        "lily_white",
+        "sunny_milk",
+        "marisa_kirisame",
+        "luna_child",
+        "cirno",
+        "daiyousei",
+        "star_sapphire"
+      ],
+      "impossible_spell_card": [
+        "seija_kijin",
+        "shinmyoumaru_sukuna"
+      ],
+      "violet_detector": [
+        "sumireko_usami"
+      ],
+      "bullet_filia": [
+        "marisa_kirisame",
+        "megumu_iizunamaru",
+        "sakuya_izayoi",
+        "tsukasa_kudamaki",
+        "biten_son",
+        "reimu_hakurei",
+        "zanmu_nippaku",
+        "enoko_mitsugashira",
+        "sanae_kochiya"
+      ]
+    },
+    "character_game": {
+      "cirno": [
+        "embodiment_of_scarlet_devil",
+        "phantasmagoria_of_flower_view",
+        "hidden_star_in_four_seasons",
+        "hisoutensoku",
+        "great_fairy_wars"
+      ],
+      "daiyousei": [
+        "embodiment_of_scarlet_devil",
+        "great_fairy_wars"
+      ],
+      "flandre_scarlet": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "hong_meiling": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "koakuma": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "patchouli_knowledge": [
+        "embodiment_of_scarlet_devil",
+        "subterranean_animism",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku"
+      ],
+      "remilia_scarlet": [
+        "embodiment_of_scarlet_devil",
+        "imperishable_night",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "touhou_gouyoku_ibun"
+      ],
+      "rumia": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "sakuya_izayoi": [
+        "embodiment_of_scarlet_devil",
+        "perfect_cherry_blossom",
+        "imperishable_night",
+        "phantasmagoria_of_flower_view",
+        "double_dealing_character",
+        "unconnected_marketeers",
+        "fossilized_wonders",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "touhou_gouyoku_ibun",
+        "bullet_filia"
+      ],
+      "marisa_kirisame": [
+        "embodiment_of_scarlet_devil",
+        "perfect_cherry_blossom",
+        "imperishable_night",
+        "phantasmagoria_of_flower_view",
+        "mountain_of_faith",
+        "subterranean_animism",
+        "undefined_fantastic_object",
+        "ten_desires",
+        "double_dealing_character",
+        "legacy_of_lunatic_kingdom",
+        "hidden_star_in_four_seasons",
+        "wily_beast_and_weakest_creature",
+        "unconnected_marketeers",
+        "unfinished_dream_of_all_living_ghost",
+        "fossilized_wonders",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers",
+        "touhou_gouyoku_ibun",
+        "great_fairy_wars",
+        "bullet_filia"
+      ],
+      "reimu_hakurei": [
+        "embodiment_of_scarlet_devil",
+        "perfect_cherry_blossom",
+        "imperishable_night",
+        "phantasmagoria_of_flower_view",
+        "mountain_of_faith",
+        "subterranean_animism",
+        "undefined_fantastic_object",
+        "ten_desires",
+        "double_dealing_character",
+        "legacy_of_lunatic_kingdom",
+        "hidden_star_in_four_seasons",
+        "wily_beast_and_weakest_creature",
+        "unconnected_marketeers",
+        "unfinished_dream_of_all_living_ghost",
+        "fossilized_wonders",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers",
+        "touhou_gouyoku_ibun",
+        "bullet_filia"
+      ],
+      "alice_margatroid": [
+        "perfect_cherry_blossom",
+        "subterranean_animism",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku"
+      ],
+      "chen": [
+        "perfect_cherry_blossom"
+      ],
+      "letty_whiterock": [
+        "perfect_cherry_blossom"
+      ],
+      "lily_white": [
+        "perfect_cherry_blossom",
+        "great_fairy_wars"
+      ],
+      "lunasa_prismriver": [
+        "perfect_cherry_blossom"
+      ],
+      "lyrica_prismriver": [
+        "perfect_cherry_blossom",
+        "phantasmagoria_of_flower_view"
+      ],
+      "merlin_prismriver": [
+        "perfect_cherry_blossom"
+      ],
+      "ran_yakumo": [
+        "perfect_cherry_blossom"
+      ],
+      "youmu_konpaku": [
+        "perfect_cherry_blossom",
+        "imperishable_night",
+        "phantasmagoria_of_flower_view",
+        "ten_desires",
+        "wily_beast_and_weakest_creature",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "touhou_gouyoku_ibun"
+      ],
+      "yukari_yakumo": [
+        "perfect_cherry_blossom",
+        "imperishable_night",
+        "subterranean_animism",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "antinomy_of_common_flowers",
+        "touhou_gouyoku_ibun"
+      ],
+      "yuyuko_saigyouji": [
+        "perfect_cherry_blossom",
+        "imperishable_night",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "touhou_gouyoku_ibun"
+      ],
+      "eirin_yagokoro": [
+        "imperishable_night"
+      ],
+      "fujiwara_no_mokou": [
+        "imperishable_night"
+      ],
+      "kaguya_houraisan": [
+        "imperishable_night"
+      ],
+      "keine_kamishirasawa": [
+        "imperishable_night"
+      ],
+      "mystia_lorelei": [
+        "imperishable_night",
+        "phantasmagoria_of_flower_view"
+      ],
+      "reisen_udongein_inaba": [
+        "imperishable_night",
+        "phantasmagoria_of_flower_view",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku"
+      ],
+      "tewi_inaba": [
+        "imperishable_night",
+        "phantasmagoria_of_flower_view"
+      ],
+      "wriggle_nightbug": [
+        "imperishable_night"
+      ],
+      "eiki_shiki_yamaxanadu": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "komachi_onozuka": [
+        "phantasmagoria_of_flower_view",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku"
+      ],
+      "medicine_melancholy": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "yuuka_kazami": [
+        "phantasmagoria_of_flower_view",
+        "touhou_gouyoku_ibun"
+      ],
+      "aya_shameimaru": [
+        "phantasmagoria_of_flower_view",
+        "hidden_star_in_four_seasons",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "touhou_gouyoku_ibun",
+        "shoot_the_bullet",
+        "double_spoiler"
+      ],
+      "hina_kagiyama": [
+        "mountain_of_faith"
+      ],
+      "kanako_yasaka": [
+        "mountain_of_faith"
+      ],
+      "minoriko_aki": [
+        "mountain_of_faith"
+      ],
+      "momiji_inubashiri": [
+        "mountain_of_faith"
+      ],
+      "nitori_kawashiro": [
+        "mountain_of_faith",
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers"
+      ],
+      "sanae_kochiya": [
+        "mountain_of_faith",
+        "undefined_fantastic_object",
+        "ten_desires",
+        "legacy_of_lunatic_kingdom",
+        "unconnected_marketeers",
+        "unfinished_dream_of_all_living_ghost",
+        "hisoutensoku",
+        "bullet_filia"
+      ],
+      "shizuha_aki": [
+        "mountain_of_faith"
+      ],
+      "suwako_moriya": [
+        "mountain_of_faith",
+        "hisoutensoku"
+      ],
+      "kisume": [
+        "subterranean_animism"
+      ],
+      "koishi_komeiji": [
+        "subterranean_animism",
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers"
+      ],
+      "parsee_mizuhashi": [
+        "subterranean_animism"
+      ],
+      "rin_kaenbyou": [
+        "subterranean_animism"
+      ],
+      "satori_komeiji": [
+        "subterranean_animism"
+      ],
+      "utsuho_reiuji": [
+        "subterranean_animism",
+        "hisoutensoku"
+      ],
+      "yamame_kurodani": [
+        "subterranean_animism"
+      ],
+      "yuugi_hoshiguma": [
+        "subterranean_animism"
+      ],
+      "suika_ibuki": [
+        "subterranean_animism",
+        "immaterial_and_missing_power",
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "touhou_gouyoku_ibun"
+      ],
+      "byakuren_hijiri": [
+        "undefined_fantastic_object",
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers"
+      ],
+      "ichirin_kumoi": [
+        "undefined_fantastic_object",
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers"
+      ],
+      "kogasa_tatara": [
+        "undefined_fantastic_object"
+      ],
+      "minamitsu_murasa": [
+        "undefined_fantastic_object"
+      ],
+      "nazrin": [
+        "undefined_fantastic_object"
+      ],
+      "nue_houjuu": [
+        "undefined_fantastic_object"
+      ],
+      "shou_toramaru": [
+        "undefined_fantastic_object"
+      ],
+      "unzan": [
+        "undefined_fantastic_object"
+      ],
+      "kyouko_kasodani": [
+        "ten_desires"
+      ],
+      "mamizou_futatsuiwa": [
+        "ten_desires",
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers"
+      ],
+      "mononobe_no_futo": [
+        "ten_desires"
+      ],
+      "seiga_kaku": [
+        "ten_desires"
+      ],
+      "soga_no_tojiko": [
+        "ten_desires"
+      ],
+      "toyosatomimi_no_miko": [
+        "ten_desires"
+      ],
+      "yoshika_miyako": [
+        "ten_desires"
+      ],
+      "benben_tsukumo": [
+        "double_dealing_character"
+      ],
+      "kagerou_imaizumi": [
+        "double_dealing_character"
+      ],
+      "raiko_horikawa": [
+        "double_dealing_character"
+      ],
+      "seija_kijin": [
+        "double_dealing_character",
+        "impossible_spell_card"
+      ],
+      "sekibanki": [
+        "double_dealing_character"
+      ],
+      "shinmyoumaru_sukuna": [
+        "double_dealing_character",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers",
+        "impossible_spell_card"
+      ],
+      "wakasagihime": [
+        "double_dealing_character"
+      ],
+      "yatsuhashi_tsukumo": [
+        "double_dealing_character"
+      ],
+      "clownpiece": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "doremy_sweet": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "hecatia_lapislazuli": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "junko": [
+        "legacy_of_lunatic_kingdom",
+        "touhou_gouyoku_ibun"
+      ],
+      "ringo": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "sagume_kishin": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "seiran": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "aunn_komano": [
+        "hidden_star_in_four_seasons"
+      ],
+      "eternity_larva": [
+        "hidden_star_in_four_seasons"
+      ],
+      "mai_teireida": [
+        "hidden_star_in_four_seasons"
+      ],
+      "narumi_yatadera": [
+        "hidden_star_in_four_seasons"
+      ],
+      "nemuno_sakata": [
+        "hidden_star_in_four_seasons"
+      ],
+      "okina_matara": [
+        "hidden_star_in_four_seasons"
+      ],
+      "satono_nishida": [
+        "hidden_star_in_four_seasons"
+      ],
+      "eagle_spirit": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "eika_ebisu": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "keiki_haniyasushin": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "kutaka_niwatari": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "mayumi_joutouguu": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "otter_spirit": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "saki_kurokoma": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "urumi_ushizaki": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "wolf_spirit": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "yachie_kicchou": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "chimata_tenkyuu": [
+        "unconnected_marketeers"
+      ],
+      "megumu_iizunamaru": [
+        "unconnected_marketeers",
+        "unfinished_dream_of_all_living_ghost",
+        "bullet_filia"
+      ],
+      "mike_goutokuji": [
+        "unconnected_marketeers",
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "misumaru_tamatsukuri": [
+        "unconnected_marketeers"
+      ],
+      "momoyo_himemushi": [
+        "unconnected_marketeers"
+      ],
+      "sannyo_komakusa": [
+        "unconnected_marketeers",
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "takane_yamashiro": [
+        "unconnected_marketeers",
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "tsukasa_kudamaki": [
+        "unconnected_marketeers",
+        "unfinished_dream_of_all_living_ghost",
+        "bullet_filia"
+      ],
+      "biten_son": [
+        "unfinished_dream_of_all_living_ghost",
+        "bullet_filia"
+      ],
+      "chiyari_tenkajin": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "enoko_mitsugashira": [
+        "unfinished_dream_of_all_living_ghost",
+        "bullet_filia"
+      ],
+      "hisami_yomotsu": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "zanmu_nippaku": [
+        "unfinished_dream_of_all_living_ghost",
+        "bullet_filia"
+      ],
+      "sumireko_usami": [
+        "unfinished_dream_of_all_living_ghost",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers",
+        "violet_detector"
+      ],
+      "ariya_iwanaga": [
+        "fossilized_wonders"
+      ],
+      "chimi_houju": [
+        "fossilized_wonders"
+      ],
+      "nareko_michigami": [
+        "fossilized_wonders"
+      ],
+      "nina_watari": [
+        "fossilized_wonders"
+      ],
+      "ubame_chirizuka": [
+        "fossilized_wonders"
+      ],
+      "yuiman_asama": [
+        "fossilized_wonders"
+      ],
+      "meiling": [
+        "immaterial_and_missing_power",
+        "hisoutensoku"
+      ],
+      "iku_nagae": [
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "antinomy_of_common_flowers"
+      ],
+      "tenshi_hinanawi": [
+        "scarlet_weather_rhapsody",
+        "hisoutensoku",
+        "antinomy_of_common_flowers"
+      ],
+      "hata_no_kokoro": [
+        "hopeless_masquerade"
+      ],
+      "kokoro_hata": [
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers"
+      ],
+      "miko_toyosatomimi": [
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers",
+        "touhou_gouyoku_ibun"
+      ],
+      "futo_mononobe": [
+        "hopeless_masquerade",
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers"
+      ],
+      "kasen_ibaraki": [
+        "urban_legend_in_limbo",
+        "antinomy_of_common_flowers"
+      ],
+      "joon_yorigami": [
+        "antinomy_of_common_flowers"
+      ],
+      "shion_yorigami": [
+        "antinomy_of_common_flowers"
+      ],
+      "hatate_himekaidou": [
+        "double_spoiler"
+      ],
+      "sunny_milk": [
+        "great_fairy_wars"
+      ],
+      "luna_child": [
+        "great_fairy_wars"
+      ],
+      "star_sapphire": [
+        "great_fairy_wars"
+      ]
+    },
+    "game_track": {
+      "embodiment_of_scarlet_devil": [
+        "th06_track_00",
+        "th06_track_01",
+        "th06_track_02",
+        "th06_track_03",
+        "th06_track_04",
+        "th06_track_05",
+        "th06_track_06",
+        "th06_track_07",
+        "th06_track_08",
+        "th06_track_09",
+        "th06_track_10",
+        "th06_track_11",
+        "th06_track_12",
+        "th06_track_13",
+        "th06_track_14",
+        "th06_track_15",
+        "th06_track_16",
+        "th06_track_17"
+      ],
+      "perfect_cherry_blossom": [
+        "th07_track_01",
+        "th07_track_02",
+        "th07_track_03",
+        "th07_track_04",
+        "th07_track_05",
+        "th07_track_06",
+        "th07_track_07",
+        "th07_track_08",
+        "th07_track_09",
+        "th07_track_10",
+        "th07_track_11",
+        "th07_track_12",
+        "th07_track_13",
+        "th07_track_14",
+        "th07_track_15",
+        "th07_track_16",
+        "th07_track_17",
+        "th07_track_18",
+        "th07_track_19",
+        "th07_track_20"
+      ],
+      "imperishable_night": [
+        "th08_track_01",
+        "th08_track_02",
+        "th08_track_03",
+        "th08_track_04",
+        "th08_track_05",
+        "th08_track_06",
+        "th08_track_07",
+        "th08_track_08",
+        "th08_track_09",
+        "th08_track_10",
+        "th08_track_11",
+        "th08_track_12",
+        "th08_track_13",
+        "th08_track_14",
+        "th08_track_15",
+        "th08_track_16",
+        "th08_track_17",
+        "th08_track_18",
+        "th08_track_19",
+        "th08_track_20",
+        "th08_track_21"
+      ],
+      "phantasmagoria_of_flower_view": [
+        "th09_track_01",
+        "th09_track_02",
+        "th09_track_03",
+        "th09_track_04",
+        "th09_track_05",
+        "th09_track_06",
+        "th09_track_07",
+        "th09_track_08",
+        "th09_track_09",
+        "th09_track_10",
+        "th09_track_11",
+        "th09_track_12",
+        "th09_track_13",
+        "th09_track_14",
+        "th09_track_15",
+        "th09_track_16",
+        "th09_track_17",
+        "th09_track_18",
+        "th09_track_19"
+      ],
+      "mountain_of_faith": [
+        "th10_track_01",
+        "th10_track_02",
+        "th10_track_03",
+        "th10_track_04",
+        "th10_track_05",
+        "th10_track_06",
+        "th10_track_07",
+        "th10_track_08",
+        "th10_track_09",
+        "th10_track_10",
+        "th10_track_11",
+        "th10_track_12",
+        "th10_track_13",
+        "th10_track_14",
+        "th10_track_15",
+        "th10_track_16",
+        "th10_track_17",
+        "th10_track_18"
+      ],
+      "subterranean_animism": [
+        "th11_track_01",
+        "th11_track_02",
+        "th11_track_03",
+        "th11_track_04",
+        "th11_track_05",
+        "th11_track_06",
+        "th11_track_07",
+        "th11_track_08",
+        "th11_track_09",
+        "th11_track_10",
+        "th11_track_11",
+        "th11_track_12",
+        "th11_track_13",
+        "th11_track_14",
+        "th11_track_15",
+        "th11_track_16",
+        "th11_track_17"
+      ],
+      "undefined_fantastic_object": [
+        "th12_track_01",
+        "th12_track_02",
+        "th12_track_03",
+        "th12_track_04",
+        "th12_track_05",
+        "th12_track_06",
+        "th12_track_07",
+        "th12_track_08",
+        "th12_track_09",
+        "th12_track_10",
+        "th12_track_11",
+        "th12_track_12",
+        "th12_track_13",
+        "th12_track_14",
+        "th12_track_15",
+        "th12_track_16",
+        "th12_track_17"
+      ],
+      "ten_desires": [
+        "th13_track_01",
+        "th13_track_02",
+        "th13_track_03",
+        "th13_track_04",
+        "th13_track_05",
+        "th13_track_06",
+        "th13_track_07",
+        "th13_track_08",
+        "th13_track_09",
+        "th13_track_10",
+        "th13_track_11",
+        "th13_track_12",
+        "th13_track_13",
+        "th13_track_14",
+        "th13_track_15",
+        "th13_track_16",
+        "th13_track_17"
+      ],
+      "double_dealing_character": [
+        "th14_track_01",
+        "th14_track_02",
+        "th14_track_03",
+        "th14_track_04",
+        "th14_track_05",
+        "th14_track_06",
+        "th14_track_07",
+        "th14_track_08",
+        "th14_track_09",
+        "th14_track_10",
+        "th14_track_11",
+        "th14_track_12",
+        "th14_track_13",
+        "th14_track_14",
+        "th14_track_15",
+        "th14_track_16",
+        "th14_track_17"
+      ],
+      "legacy_of_lunatic_kingdom": [
+        "th15_track_01",
+        "th15_track_02",
+        "th15_track_03",
+        "th15_track_04",
+        "th15_track_05",
+        "th15_track_06",
+        "th15_track_07",
+        "th15_track_08",
+        "th15_track_09",
+        "th15_track_10",
+        "th15_track_11",
+        "th15_track_12",
+        "th15_track_13",
+        "th15_track_14",
+        "th15_track_15",
+        "th15_track_16",
+        "th15_track_17"
+      ],
+      "hidden_star_in_four_seasons": [
+        "th16_track_01",
+        "th16_track_02",
+        "th16_track_03",
+        "th16_track_04",
+        "th16_track_05",
+        "th16_track_06",
+        "th16_track_07",
+        "th16_track_08",
+        "th16_track_09",
+        "th16_track_10",
+        "th16_track_11",
+        "th16_track_12",
+        "th16_track_13",
+        "th16_track_14",
+        "th16_track_15",
+        "th16_track_16",
+        "th16_track_17"
+      ],
+      "wily_beast_and_weakest_creature": [
+        "th17_track_01",
+        "th17_track_02",
+        "th17_track_03",
+        "th17_track_04",
+        "th17_track_05",
+        "th17_track_06",
+        "th17_track_07",
+        "th17_track_08",
+        "th17_track_09",
+        "th17_track_10",
+        "th17_track_11",
+        "th17_track_12",
+        "th17_track_13",
+        "th17_track_14",
+        "th17_track_15",
+        "th17_track_16",
+        "th17_track_17"
+      ],
+      "unconnected_marketeers": [
+        "th18_track_01",
+        "th18_track_02",
+        "th18_track_03",
+        "th18_track_04",
+        "th18_track_05",
+        "th18_track_06",
+        "th18_track_07",
+        "th18_track_08",
+        "th18_track_09",
+        "th18_track_10",
+        "th18_track_11",
+        "th18_track_12",
+        "th18_track_13",
+        "th18_track_14",
+        "th18_track_15",
+        "th18_track_16",
+        "th18_track_17"
+      ],
+      "unfinished_dream_of_all_living_ghost": [
+        "th19_track_01",
+        "th19_track_02",
+        "th19_track_03",
+        "th19_track_04",
+        "th19_track_05",
+        "th19_track_06",
+        "th19_track_07",
+        "th19_track_08",
+        "th19_track_09",
+        "th19_track_10",
+        "th19_track_11",
+        "th19_track_12",
+        "th19_track_13",
+        "th19_track_14",
+        "th19_track_15",
+        "th19_track_16",
+        "th19_track_17",
+        "th19_track_18",
+        "th19_track_19",
+        "th19_track_20",
+        "th19_track_21",
+        "th19_track_22"
+      ],
+      "fossilized_wonders": [
+        "th20_track_01",
+        "th20_track_02",
+        "th20_track_03",
+        "th20_track_04",
+        "th20_track_05",
+        "th20_track_06",
+        "th20_track_07",
+        "th20_track_08",
+        "th20_track_09",
+        "th20_track_10",
+        "th20_track_11",
+        "th20_track_12",
+        "th20_track_13",
+        "th20_track_14",
+        "th20_track_15",
+        "th20_track_16",
+        "th20_track_17",
+        "th20_track_18"
+      ]
+    },
+    "track_game": {
+      "th06_track_00": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_01": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_02": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_03": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_04": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_05": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_06": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_07": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_08": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_09": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_10": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_11": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_12": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_13": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_14": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_15": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_16": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th06_track_17": [
+        "embodiment_of_scarlet_devil"
+      ],
+      "th07_track_01": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_02": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_03": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_04": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_05": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_06": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_07": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_08": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_09": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_10": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_11": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_12": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_13": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_14": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_15": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_16": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_17": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_18": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_19": [
+        "perfect_cherry_blossom"
+      ],
+      "th07_track_20": [
+        "perfect_cherry_blossom"
+      ],
+      "th08_track_01": [
+        "imperishable_night"
+      ],
+      "th08_track_02": [
+        "imperishable_night"
+      ],
+      "th08_track_03": [
+        "imperishable_night"
+      ],
+      "th08_track_04": [
+        "imperishable_night"
+      ],
+      "th08_track_05": [
+        "imperishable_night"
+      ],
+      "th08_track_06": [
+        "imperishable_night"
+      ],
+      "th08_track_07": [
+        "imperishable_night"
+      ],
+      "th08_track_08": [
+        "imperishable_night"
+      ],
+      "th08_track_09": [
+        "imperishable_night"
+      ],
+      "th08_track_10": [
+        "imperishable_night"
+      ],
+      "th08_track_11": [
+        "imperishable_night"
+      ],
+      "th08_track_12": [
+        "imperishable_night"
+      ],
+      "th08_track_13": [
+        "imperishable_night"
+      ],
+      "th08_track_14": [
+        "imperishable_night"
+      ],
+      "th08_track_15": [
+        "imperishable_night"
+      ],
+      "th08_track_16": [
+        "imperishable_night"
+      ],
+      "th08_track_17": [
+        "imperishable_night"
+      ],
+      "th08_track_18": [
+        "imperishable_night"
+      ],
+      "th08_track_19": [
+        "imperishable_night"
+      ],
+      "th08_track_20": [
+        "imperishable_night"
+      ],
+      "th08_track_21": [
+        "imperishable_night"
+      ],
+      "th09_track_01": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_02": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_03": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_04": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_05": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_06": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_07": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_08": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_09": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_10": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_11": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_12": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_13": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_14": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_15": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_16": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_17": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_18": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th09_track_19": [
+        "phantasmagoria_of_flower_view"
+      ],
+      "th10_track_01": [
+        "mountain_of_faith"
+      ],
+      "th10_track_02": [
+        "mountain_of_faith"
+      ],
+      "th10_track_03": [
+        "mountain_of_faith"
+      ],
+      "th10_track_04": [
+        "mountain_of_faith"
+      ],
+      "th10_track_05": [
+        "mountain_of_faith"
+      ],
+      "th10_track_06": [
+        "mountain_of_faith"
+      ],
+      "th10_track_07": [
+        "mountain_of_faith"
+      ],
+      "th10_track_08": [
+        "mountain_of_faith"
+      ],
+      "th10_track_09": [
+        "mountain_of_faith"
+      ],
+      "th10_track_10": [
+        "mountain_of_faith"
+      ],
+      "th10_track_11": [
+        "mountain_of_faith"
+      ],
+      "th10_track_12": [
+        "mountain_of_faith"
+      ],
+      "th10_track_13": [
+        "mountain_of_faith"
+      ],
+      "th10_track_14": [
+        "mountain_of_faith"
+      ],
+      "th10_track_15": [
+        "mountain_of_faith"
+      ],
+      "th10_track_16": [
+        "mountain_of_faith"
+      ],
+      "th10_track_17": [
+        "mountain_of_faith"
+      ],
+      "th10_track_18": [
+        "mountain_of_faith"
+      ],
+      "th11_track_01": [
+        "subterranean_animism"
+      ],
+      "th11_track_02": [
+        "subterranean_animism"
+      ],
+      "th11_track_03": [
+        "subterranean_animism"
+      ],
+      "th11_track_04": [
+        "subterranean_animism"
+      ],
+      "th11_track_05": [
+        "subterranean_animism"
+      ],
+      "th11_track_06": [
+        "subterranean_animism"
+      ],
+      "th11_track_07": [
+        "subterranean_animism"
+      ],
+      "th11_track_08": [
+        "subterranean_animism"
+      ],
+      "th11_track_09": [
+        "subterranean_animism"
+      ],
+      "th11_track_10": [
+        "subterranean_animism"
+      ],
+      "th11_track_11": [
+        "subterranean_animism"
+      ],
+      "th11_track_12": [
+        "subterranean_animism"
+      ],
+      "th11_track_13": [
+        "subterranean_animism"
+      ],
+      "th11_track_14": [
+        "subterranean_animism"
+      ],
+      "th11_track_15": [
+        "subterranean_animism"
+      ],
+      "th11_track_16": [
+        "subterranean_animism"
+      ],
+      "th11_track_17": [
+        "subterranean_animism"
+      ],
+      "th12_track_01": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_02": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_03": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_04": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_05": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_06": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_07": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_08": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_09": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_10": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_11": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_12": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_13": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_14": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_15": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_16": [
+        "undefined_fantastic_object"
+      ],
+      "th12_track_17": [
+        "undefined_fantastic_object"
+      ],
+      "th13_track_01": [
+        "ten_desires"
+      ],
+      "th13_track_02": [
+        "ten_desires"
+      ],
+      "th13_track_03": [
+        "ten_desires"
+      ],
+      "th13_track_04": [
+        "ten_desires"
+      ],
+      "th13_track_05": [
+        "ten_desires"
+      ],
+      "th13_track_06": [
+        "ten_desires"
+      ],
+      "th13_track_07": [
+        "ten_desires"
+      ],
+      "th13_track_08": [
+        "ten_desires"
+      ],
+      "th13_track_09": [
+        "ten_desires"
+      ],
+      "th13_track_10": [
+        "ten_desires"
+      ],
+      "th13_track_11": [
+        "ten_desires"
+      ],
+      "th13_track_12": [
+        "ten_desires"
+      ],
+      "th13_track_13": [
+        "ten_desires"
+      ],
+      "th13_track_14": [
+        "ten_desires"
+      ],
+      "th13_track_15": [
+        "ten_desires"
+      ],
+      "th13_track_16": [
+        "ten_desires"
+      ],
+      "th13_track_17": [
+        "ten_desires"
+      ],
+      "th14_track_01": [
+        "double_dealing_character"
+      ],
+      "th14_track_02": [
+        "double_dealing_character"
+      ],
+      "th14_track_03": [
+        "double_dealing_character"
+      ],
+      "th14_track_04": [
+        "double_dealing_character"
+      ],
+      "th14_track_05": [
+        "double_dealing_character"
+      ],
+      "th14_track_06": [
+        "double_dealing_character"
+      ],
+      "th14_track_07": [
+        "double_dealing_character"
+      ],
+      "th14_track_08": [
+        "double_dealing_character"
+      ],
+      "th14_track_09": [
+        "double_dealing_character"
+      ],
+      "th14_track_10": [
+        "double_dealing_character"
+      ],
+      "th14_track_11": [
+        "double_dealing_character"
+      ],
+      "th14_track_12": [
+        "double_dealing_character"
+      ],
+      "th14_track_13": [
+        "double_dealing_character"
+      ],
+      "th14_track_14": [
+        "double_dealing_character"
+      ],
+      "th14_track_15": [
+        "double_dealing_character"
+      ],
+      "th14_track_16": [
+        "double_dealing_character"
+      ],
+      "th14_track_17": [
+        "double_dealing_character"
+      ],
+      "th15_track_01": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_02": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_03": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_04": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_05": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_06": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_07": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_08": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_09": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_10": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_11": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_12": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_13": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_14": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_15": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_16": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th15_track_17": [
+        "legacy_of_lunatic_kingdom"
+      ],
+      "th16_track_01": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_02": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_03": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_04": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_05": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_06": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_07": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_08": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_09": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_10": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_11": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_12": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_13": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_14": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_15": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_16": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th16_track_17": [
+        "hidden_star_in_four_seasons"
+      ],
+      "th17_track_01": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_02": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_03": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_04": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_05": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_06": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_07": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_08": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_09": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_10": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_11": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_12": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_13": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_14": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_15": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_16": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th17_track_17": [
+        "wily_beast_and_weakest_creature"
+      ],
+      "th18_track_01": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_02": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_03": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_04": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_05": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_06": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_07": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_08": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_09": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_10": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_11": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_12": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_13": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_14": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_15": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_16": [
+        "unconnected_marketeers"
+      ],
+      "th18_track_17": [
+        "unconnected_marketeers"
+      ],
+      "th19_track_01": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_02": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_03": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_04": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_05": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_06": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_07": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_08": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_09": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_10": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_11": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_12": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_13": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_14": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_15": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_16": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_17": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_18": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_19": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_20": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_21": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th19_track_22": [
+        "unfinished_dream_of_all_living_ghost"
+      ],
+      "th20_track_01": [
+        "fossilized_wonders"
+      ],
+      "th20_track_02": [
+        "fossilized_wonders"
+      ],
+      "th20_track_03": [
+        "fossilized_wonders"
+      ],
+      "th20_track_04": [
+        "fossilized_wonders"
+      ],
+      "th20_track_05": [
+        "fossilized_wonders"
+      ],
+      "th20_track_06": [
+        "fossilized_wonders"
+      ],
+      "th20_track_07": [
+        "fossilized_wonders"
+      ],
+      "th20_track_08": [
+        "fossilized_wonders"
+      ],
+      "th20_track_09": [
+        "fossilized_wonders"
+      ],
+      "th20_track_10": [
+        "fossilized_wonders"
+      ],
+      "th20_track_11": [
+        "fossilized_wonders"
+      ],
+      "th20_track_12": [
+        "fossilized_wonders"
+      ],
+      "th20_track_13": [
+        "fossilized_wonders"
+      ],
+      "th20_track_14": [
+        "fossilized_wonders"
+      ],
+      "th20_track_15": [
+        "fossilized_wonders"
+      ],
+      "th20_track_16": [
+        "fossilized_wonders"
+      ],
+      "th20_track_17": [
+        "fossilized_wonders"
+      ],
+      "th20_track_18": [
+        "fossilized_wonders"
+      ]
+    }
+  }
+}
