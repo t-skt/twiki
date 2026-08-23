@@ -2,6 +2,7 @@ import React, { useMemo, useState } from "react";
 import Link from "@docusaurus/Link";
 import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
+import LayerBand from "@site/src/components/LayerBand";
 import siteData from "@site/static/site-data.json";
 
 type Game = (typeof siteData.games)[number];
@@ -173,6 +174,7 @@ export default function Home() {
 
   return (
     <Layout title="동방 한국어 위키" description="동방 프로젝트 한국어 위키 — 게임·캐릭터·음악">
+      <LayerBand layer="l0" title="통합 인덱스" hint="게임 · 캐릭터 · 음악 통합 탐색" />
       <div className="home-hero">
         <Heading as="h1" className="home-hero__title">
           동방 한국어 위키
