@@ -5,3 +5,4 @@ export { default as CharacterProfile } from './CharacterProfile';
 export { default as ScenarioStage } from './ScenarioStage';
 export { SpellCardTable, SpellCardRow } from './SpellCard';
 export { default as CharacterMaster } from './CharacterMaster';
+export { default as CharacterIndex } from './CharacterIndex';

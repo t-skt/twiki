@@ -255,6 +255,7 @@ function emitCharacterMasters(characters, games) {
 title: "${(c.ko ?? c.slug).replace(/"/g, '\\"')}"
 sidebar_position: ${posOf.get(c.slug)}
 displayed_sidebar: charactersSidebar
+layer: l1
 ---
 
 import { CharacterMaster } from '@site/src/components';
@@ -360,12 +361,34 @@ function buildTocBlock(g) {
   return lines.join("\n");
 }
 
+// frontmatter 에 layer 필드 삽입/교체 (EMPOTENT): 기존 layer 값 있으면 교체,
+// 없으면 displayed_sidebar 줄 다음(없으면 frontmatter 끝)에 삽입.
+function ensureLayerFrontmatter(text, layerValue) {
+  const lines = text.split("\n");
+  if (lines[0]?.trim() !== "---") return text;
+  let end = -1;
+  for (let i = 1; i < lines.length; i++) {
+    if (lines[i].trim() === "---") { end = i; break; }
+  }
+  if (end === -1) return text;
+  const fm = lines.slice(1, end);
+  const layerIdx = fm.findIndex((l) => /^layer\s*:/.test(l.trim()));
+  if (layerIdx !== -1) {
+    fm[layerIdx] = `layer: ${layerValue}`;
+  } else {
+    const sidebarIdx = fm.findIndex((l) => /^displayed_sidebar\s*:/.test(l.trim()));
+    const insertAt = sidebarIdx !== -1 ? sidebarIdx + 1 : fm.length;
+    fm.splice(insertAt, 0, `layer: ${layerValue}`);
+  }
+  return [lines[0], ...fm, ...lines.slice(end)].join("\n");
+}
+
 function injectFusionToc(games) {
   let injected = 0;
   for (const g of games) {
     const file = path.join(DOCS, g.category, g.slug, "intro.mdx");
     if (!fs.existsSync(file)) continue;
-    const orig = fs.readFileSync(file, "utf8");
+    const orig = ensureLayerFrontmatter(fs.readFileSync(file, "utf8"), "l2");
     const block = buildTocBlock(g);
 
     let next;
