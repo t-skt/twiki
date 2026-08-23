@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // build-site-data.mjs — twiki-owned 파생 생성물 빌더 (Fusion IA)
 //
-// 역할 (D1): tdata db/ (읽기) + docs/ (읽기) 에서 site-data.json 을 도출.
+// 역할 (D1): _data/site-source/ snapshot (읽기) + docs/ (읽기) 에서 site-data.json 을 도출.
 //   - games:    category는 docs/{shooting,fighting,side}/<kebab> glob 으로 도출 (하드코딩 맵 금지, N4)
 //   - albums:   docs/music/*.mdx frontmatter (index.mdx 제외)
 //   - characters: dedupe(133) + appearances = db derivation ∪ 파일시스템 탐지 (N5)
@@ -19,7 +19,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const TDATA = path.resolve(ROOT, "..", "tdata");
+const SITE_SOURCE = path.join(ROOT, "_data", "site-source");
 const DOCS = path.join(ROOT, "docs");
 const STATIC = path.join(ROOT, "static");
 
@@ -35,7 +35,7 @@ function fail(msg) {
 }
 
 function readJson(rel) {
-  const p = path.join(TDATA, rel);
+  const p = path.join(SITE_SOURCE, rel);
   try {
     return JSON.parse(fs.readFileSync(p, "utf8"));
   } catch (e) {
@@ -62,7 +62,7 @@ function parseFrontmatter(text) {
 
 // ── games ───────────────────────────────────────────────────────────────
 function buildGames() {
-  const db = readJson("db/games.json").games;
+  const db = readJson("games.json").games;
   const cats = ["shooting", "fighting", "side"];
   const games = [];
   for (const g of db) {
@@ -127,7 +127,7 @@ function buildAlbums() {
 
 // ── characters ──────────────────────────────────────────────────────────
 function buildCharacters(games) {
-  const dbChars = readJson("db/characters.json").characters;
+  const dbChars = readJson("characters.json").characters;
   const gameBySlug = Object.fromEntries(games.map((g) => [g.slug, g]));
 
   // 파일시스템 프로필 스캔: docs/<cat>/<game>/characters/<slug>.mdx
@@ -153,7 +153,7 @@ function buildCharacters(games) {
   }
 
   // db games 의 character_ids 역참조를 위해 한 번만 로드
-  const dbGames = readJson("db/games.json").games;
+  const dbGames = readJson("games.json").games;
 
   const characters = [];
   for (const [id, rows] of byId) {
@@ -274,14 +274,90 @@ export const CM_PROPS = ${props};
 const TOC_START = "{/* fusion-toc:start */}";
 const TOC_END = "{/* fusion-toc:end */}";
 
+function escapeHtml(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
 function buildTocBlock(g) {
   const base = `/twiki/docs/${g.category}/${g.slug}`;
+  const charDir = path.join(DOCS, g.category, g.slug, "characters");
+  const charSlugs = fs.existsSync(charDir)
+    ? fs
+        .readdirSync(charDir)
+        .filter((f) => f.endsWith(".mdx"))
+        .map((f) => f.replace(/\.mdx$/, ""))
+        .sort((a, b) => a.localeCompare(b))
+    : [];
+  const charKo = (slug) =>
+    escapeHtml(parseFrontmatter(fs.readFileSync(path.join(charDir, `${slug}.mdx`), "utf8")).title ?? slug);
+
   const cards = [];
-  if (g.hasDialogue) cards.push(`- **스토리**: [대사/줄거리](${base}/dialogue/overview)`);
-  if (g.hasSpellCards) cards.push(`- **스펠카드**: [스펠카드 목록](${base}/spell-cards)`);
-  if (g.hasMusic) cards.push(`- **OST**: [게임 음악](${base}/music)`);
-  cards.push(`- **캐릭터**: 이 게임에 출연하는 캐릭터 프로필은 왼쪽 사이드바 \`캐릭터\` 섹션에서 확인하세요.`);
-  return [TOC_START, "## 📑 목차", ...cards, TOC_END].join("\n");
+  if (g.hasDialogue) {
+    cards.push(
+      `    <a class="fusion-toc__card" href="${base}/dialogue/overview"><span class="fusion-toc__card-icon">📖</span><span class="fusion-toc__card-title">스토리</span><span class="fusion-toc__card-desc">시나리오 · 대사</span></a>`
+    );
+  }
+  if (g.hasSpellCards) {
+    cards.push(
+      `    <a class="fusion-toc__card" href="${base}/spell-cards"><span class="fusion-toc__card-icon">🎴</span><span class="fusion-toc__card-title">스펠카드</span><span class="fusion-toc__card-desc">보스별 스펠 목록</span></a>`
+    );
+  }
+  if (g.hasMusic) {
+    cards.push(
+      `    <a class="fusion-toc__card" href="${base}/music"><span class="fusion-toc__card-icon">🎵</span><span class="fusion-toc__card-title">OST</span><span class="fusion-toc__card-desc">사운드트랙</span></a>`
+    );
+  }
+  if (charSlugs.length > 0) {
+    cards.push(
+      `    <a class="fusion-toc__card" href="#gm-chars"><span class="fusion-toc__card-icon">👤</span><span class="fusion-toc__card-title">캐릭터</span><span class="fusion-toc__card-desc">출연 ${charSlugs.length}명</span></a>`
+    );
+  }
+
+  const lines = [TOC_START];
+  if (cards.length > 0) {
+    lines.push(`<div class="fusion-toc">`, `  <div class="fusion-toc__cards">`, ...cards, `  </div>`);
+  } else {
+    lines.push(`<div class="fusion-toc">`);
+  }
+
+  if (g.hasDialogue && charSlugs.length > 0) {
+    const scenarioCards = charSlugs.map(
+      (slug) =>
+        `      <a class="fusion-toc__scenario-card" href="${base}/characters/${slug}"><strong>${charKo(slug)}</strong><span>프로필 →</span></a>`
+    );
+    lines.push(
+      `  <div class="fusion-toc__section" id="gm-story">`,
+      `    <h3>스토리</h3>`,
+      `    <div class="fusion-toc__scenario-grid">`,
+      ...scenarioCards,
+      `    </div>`,
+      `  </div>`
+    );
+  }
+
+  if (charSlugs.length > 0) {
+    const charCards = charSlugs.map((slug) => {
+      const hasMaster = fs.existsSync(path.join(DOCS, "characters", `${slug}.mdx`));
+      const links = [`<a href="${base}/characters/${slug}">게임 내 프로필</a>`];
+      if (hasMaster) {
+        links.push(`<a class="fusion-toc__primary" href="/twiki/docs/characters/${slug}">캐릭터 마스터 →</a>`);
+      }
+      return `      <div class="fusion-toc__char-card"><h4>${charKo(slug)}</h4><div class="fusion-toc__char-links">${links.join(
+        ""
+      )}</div></div>`;
+    });
+    lines.push(
+      `  <div class="fusion-toc__section" id="gm-chars">`,
+      `    <h3>캐릭터</h3>`,
+      `    <div class="fusion-toc__char-grid">`,
+      ...charCards,
+      `    </div>`,
+      `  </div>`
+    );
+  }
+
+  lines.push(`</div>`, TOC_END);
+  return lines.join("\n");
 }
 
 function injectFusionToc(games) {
@@ -329,18 +405,13 @@ function injectFusionToc(games) {
 
 // ── main ────────────────────────────────────────────────────────────────
 function main() {
-  // CI는 twiki만 체크아웃 → ../tdata 부재. 이 경우 커밋된 파생물을 그대로 유지.
-  // 로컬(tdata 동시 존재)에서만 tdata db/로부터 새로 도출.
-  const tdataAvailable = fs.existsSync(path.join(TDATA, "db", "games.json"));
-  if (!tdataAvailable) {
-    const committed = path.join(STATIC, "site-data.json");
-    if (fs.existsSync(committed)) {
-      process.stdout.write(
-        `[build-site-data] SKIP: tdata(${path.relative(ROOT, TDATA)}) 부재 — 커밋된 static/site-data.json 유지 (CI 모드)\n`
-      );
-      return;
-    }
-    fail("tdata missing, no committed site-data.json. Run build:site-data locally with tdata present.");
+  // Data source is the committed _data/site-source/ snapshot (pushed by the
+  // upstream data pipeline). Always present in the repo — no sibling lookup.
+  const sourceAvailable = fs.existsSync(path.join(SITE_SOURCE, "games.json"));
+  if (!sourceAvailable) {
+    fail(
+      "Missing _data/site-source/games.json. Push a fresh snapshot before building."
+    );
   }
 
   const games = buildGames();

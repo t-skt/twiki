@@ -3,9 +3,9 @@
 > Phase 1 (레포 부트스트랩) 완료 후 다음 작업.
 
 ## 사전 조건
-- `~/git/tdata/` sibling 클론 완료 ✅
+- `_data/site-source/` snapshot 준비 완료 ✅
 - `~/git/touhouwiki-kr/` 기존 Docusaurus 프로젝트 존재
-- tdata Phase 2 (Step 1) 어느 정도 진행되어 `db/games.json` 등이 존재해야 `generate.py` 실행 가능
+- snapshot의 `games.json` 등이 존재해야 파생물 빌드 가능
   - 단순 Docusaurus 스캐폴딩만 먼저 끝내고 generate는 나중에 해도 OK
 
 ## 작업 목록
@@ -37,15 +37,15 @@
 - [ ] `sidebars.ts` 재작성 (새 docs/ 구조에 맞게)
 - [ ] `package.json`의 `name`, `repository` 갱신
 
-### C. 첫 generation (tdata 의존)
-- [ ] tdata에서 `cd ~/git/tdata && python scripts/generate.py --game th06`
-- [ ] 결과: `docs/shooting/th06/**/*.mdx`, `tdata.lock` 생성됨
+### C. 첫 파생물 빌드 (snapshot 의존)
+- [ ] `_data/site-source/` snapshot 확인 후 `yarn build:site-data`
+- [ ] 결과: `docs/characters/**`, `static/site-data.json`, `data.lock` 갱신됨
 - [ ] `yarn install && yarn build` 0 errors 확인
 - [ ] `yarn start`로 th06 페이지 정상 렌더 확인
 
 ### D. CI / 배포
 - [ ] `.github/workflows/deploy.yml` 작성 (node 22 + yarn build + GitHub Pages, Python 0줄)
-- [ ] `.pre-commit-config.yaml` 작성 (tdata.lock + docs 동시 커밋 강제)
+- [ ] `.pre-commit-config.yaml` 작성 (data.lock + docs 동시 커밋 강제)
 - [ ] GitHub Pages 설정 (Settings → Pages → Source: GitHub Actions)
 
 ## 수용 기준 (Step 2 완료)
@@ -56,6 +56,6 @@
 ## 다음 세션 시작 프롬프트 (참고)
 ```
 PHASE2-TODO.md 의 A-D 순서로 작업해줘.
-docs/는 직접 편집 금지 (tdata/scripts/generate.py가 owner).
+docs/는 직접 편집 금지 (upstream 큐레이션 + build:site-data가 owner).
 편집은 src/components/, docusaurus.config.ts, sidebars.ts, package.json 위주.
 ```

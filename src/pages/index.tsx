@@ -16,24 +16,24 @@ const CATEGORY_LABEL: Record<string, string> = {
 
 const BASE = "/twiki";
 
+// Full year range across every game, independent of the active search filter,
+// so the timeline's shape stays stable while a query only hides non-matching rows.
+const ALL_YEARS: number[] = (() => {
+  const years = siteData.games.map((g) => g.year);
+  const min = Math.min(...years);
+  const max = Math.max(...years);
+  const out: number[] = [];
+  for (let y = min; y <= max; y++) out.push(y);
+  return out;
+})();
+
 function GameCard({ g }: { g: Game }) {
   return (
-    <Link
-      to={`${BASE}/docs/${g.category}/${g.slug}/intro`}
-      style={{
-        display: "block",
-        padding: "0.85rem",
-        border: "1px solid var(--ifm-color-emphasis-300)",
-        borderRadius: 6,
-        textDecoration: "none",
-        color: "inherit",
-        background: "var(--ifm-card-background-color, #fff)",
-      }}
-    >
-      <small style={{ color: "var(--ifm-color-emphasis-600)" }}>{g.code.toUpperCase()}</small>
-      <div style={{ fontWeight: 600, marginTop: "0.25rem" }}>{g.nameKo?.split("~")[0].trim()}</div>
-      <div style={{ fontSize: "0.8rem", color: "var(--ifm-color-emphasis-600)", marginTop: "0.25rem" }}>
-        {g.year} · 캐릭터 {g.charCount}
+    <Link to={`${BASE}/docs/${g.category}/${g.slug}/intro`} className="home-card">
+      <div className={`home-card__thumb home-card__thumb--${g.category}`}>{g.code.toUpperCase()}</div>
+      <div className="home-card__title">{g.nameKo?.split("~")[0].trim()}</div>
+      <div className="home-card__meta">
+        {CATEGORY_LABEL[g.category]} · {g.year}
       </div>
     </Link>
   );
@@ -41,116 +41,121 @@ function GameCard({ g }: { g: Game }) {
 
 function AlbumCard({ a }: { a: Album }) {
   return (
-    <Link
-      to={`${BASE}/docs/music/${a.slug}`}
-      style={{
-        display: "block",
-        padding: "0.85rem",
-        border: "1px solid var(--ifm-color-emphasis-300)",
-        borderRadius: 6,
-        textDecoration: "none",
-        color: "inherit",
-        background: "var(--ifm-card-background-color, #fff)",
-      }}
-    >
-      <div style={{ fontWeight: 600 }}>{a.titleKo}</div>
-      {a.titleEn && (
-        <div style={{ fontSize: "0.8rem", color: "var(--ifm-color-emphasis-600)", marginTop: "0.25rem" }}>
-          {a.titleEn}
-        </div>
-      )}
+    <Link to={`${BASE}/docs/music/${a.slug}`} className="home-card">
+      <div className="home-card__thumb home-card__thumb--music">Album {a.pos}</div>
+      <div className="home-card__title">{a.titleKo}</div>
+      {a.titleEn && <div className="home-card__meta">{a.titleEn}</div>}
     </Link>
   );
 }
 
 function CharacterChip({ c }: { c: Character }) {
   return (
-    <Link
-      to={`${BASE}/docs/characters/${c.slug}`}
-      style={{
-        display: "inline-block",
-        padding: "0.3rem 0.6rem",
-        marginRight: "0.4rem",
-        marginBottom: "0.4rem",
-        border: "1px solid var(--ifm-color-emphasis-300)",
-        borderRadius: 999,
-        textDecoration: "none",
-        color: "inherit",
-        fontSize: "0.85rem",
-        background: "var(--ifm-card-background-color, #fff)",
-      }}
-    >
+    <Link to={`${BASE}/docs/characters/${c.slug}`} className="az-chip">
       {c.ko}
     </Link>
   );
 }
 
-const gridStyle: React.CSSProperties = {
-  display: "grid",
-  gridTemplateColumns: "repeat(auto-fill, minmax(180px, 1fr))",
-  gap: "0.75rem",
-};
+function azLetter(c: Character): string {
+  const src = c.en || c.ko || "?";
+  const ch = src.trim().charAt(0).toUpperCase();
+  return /[A-Z]/.test(ch) ? ch : "#";
+}
+
+function AzIndex({ characters }: { characters: Character[] }) {
+  const groups = useMemo(() => {
+    const byLetter = new Map<string, Character[]>();
+    for (const c of characters) {
+      const letter = azLetter(c);
+      const list = byLetter.get(letter);
+      if (list) list.push(c);
+      else byLetter.set(letter, [c]);
+    }
+    return Array.from(byLetter.entries())
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([letter, list]) => [letter, list.slice().sort((a, b) => (a.en || "").localeCompare(b.en || ""))] as const);
+  }, [characters]);
+
+  return (
+    <div className="az-index">
+      <Heading as="h2" className="az-index__title">
+        캐릭터 A-Z 인덱스 ({characters.length}명)
+      </Heading>
+      {groups.map(([letter, list]) => (
+        <div className="az-group" key={letter}>
+          <span className="az-letter">{letter}</span>
+          <span className="az-chips">
+            {list.map((c) => (
+              <CharacterChip key={c.slug} c={c} />
+            ))}
+          </span>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 function GenreView({ games, albums, characters }: { games: Game[]; albums: Album[]; characters: Character[] }) {
   const byCat = (cat: string) => games.filter((g) => g.category === cat);
   return (
     <>
       {(["shooting", "fighting", "side"] as const).map((cat) => (
-        <section key={cat}>
-          <Heading as="h2" style={{ marginTop: "2rem" }}>
-            {CATEGORY_LABEL[cat]} ({byCat(cat).length})
-          </Heading>
-          <div style={gridStyle}>{byCat(cat).map((g) => <GameCard key={g.slug} g={g} />)}</div>
+        <section className="home-section" key={cat}>
+          <div className="home-section__head">
+            <span className="home-section__title">{CATEGORY_LABEL[cat]}</span>
+            <span className="home-section__count">({byCat(cat).length})</span>
+          </div>
+          <div className="home-grid">
+            {byCat(cat).map((g) => (
+              <GameCard key={g.slug} g={g} />
+            ))}
+          </div>
         </section>
       ))}
-      <section>
-        <Heading as="h2" style={{ marginTop: "2rem" }}>
-          음악 ({albums.length})
-        </Heading>
-        <div style={gridStyle}>{albums.map((a) => <AlbumCard key={a.slug} a={a} />)}</div>
+      <section className="home-section">
+        <div className="home-section__head">
+          <span className="home-section__title">음악</span>
+          <span className="home-section__count">({albums.length})</span>
+        </div>
+        <div className="home-grid">
+          {albums.map((a) => (
+            <AlbumCard key={a.slug} a={a} />
+          ))}
+        </div>
       </section>
-      <section>
-        <Heading as="h2" style={{ marginTop: "2rem" }}>
-          캐릭터 ({characters.length})
-        </Heading>
-        <div>{characters.map((c) => <CharacterChip key={c.slug} c={c} />)}</div>
-      </section>
+      <AzIndex characters={characters} />
     </>
   );
 }
 
 function YearView({ games }: { games: Game[] }) {
-  const years = useMemo(() => {
-    const min = Math.min(...games.map((g) => g.year ?? 9999));
-    const max = Math.max(...games.map((g) => g.year ?? 0));
-    const out: number[] = [];
-    for (let y = min; y <= max; y++) out.push(y);
-    return out;
-  }, [games]);
-
   return (
-    <>
-      {years.map((y) => {
+    <div className="timeline">
+      {ALL_YEARS.map((y) => {
         const yg = games.filter((g) => g.year === y);
         return (
-          <section key={y}>
-            <Heading as="h2" style={{ marginTop: "2rem" }}>
-              {y}
-              {yg.length === 0 && (
-                <span style={{ marginLeft: "0.6rem", fontSize: "0.85rem", color: "var(--ifm-color-emphasis-600)" }}>
-                  (출시 작품 없음)
-                </span>
-              )}
-            </Heading>
+          <div className={`tl-row${yg.length === 0 ? " tl-row--empty" : ""}`} key={y}>
+            <div className="tl-year">{y}</div>
+            <div className="tl-track">
+              <span className="tl-dot" />
+            </div>
             {yg.length > 0 ? (
-              <div style={gridStyle}>{yg.map((g) => <GameCard key={g.slug} g={g} />)}</div>
+              <div className="tl-games">
+                {yg.map((g) => (
+                  <Link key={g.slug} to={`${BASE}/docs/${g.category}/${g.slug}/intro`} className="tl-game">
+                    {g.code.toUpperCase()} · {g.nameKo?.split("~")[0].trim()}
+                    <small>{CATEGORY_LABEL[g.category]}</small>
+                  </Link>
+                ))}
+              </div>
             ) : (
-              <p style={{ color: "var(--ifm-color-emphasis-600)" }}>이해에 출시된 동방 시리즈 작품이 없습니다.</p>
+              <div className="tl-games tl-games--empty">출시 없음</div>
             )}
-          </section>
+          </div>
         );
       })}
-    </>
+    </div>
   );
 }
 
@@ -166,56 +171,51 @@ export default function Home() {
   const albums = siteData.albums.filter((a) => inMatch([a.titleKo, a.titleEn, a.slug]));
   const characters = siteData.characters.filter((c) => inMatch([c.ko, c.en, c.ja, c.id, c.slug]));
 
-  const toggleBtn = (active: boolean): React.CSSProperties => ({
-    padding: "0.4rem 1rem",
-    border: "1px solid var(--ifm-color-emphasis-300)",
-    background: active ? "var(--ifm-color-primary)" : "transparent",
-    color: active ? "#fff" : "inherit",
-    cursor: "pointer",
-    fontSize: "0.9rem",
-  });
-
   return (
     <Layout title="동방 한국어 위키" description="동방 프로젝트 한국어 위키 — 게임·캐릭터·음악">
-      <main style={{ padding: "2rem", maxWidth: 1100, margin: "0 auto" }}>
-        <Heading as="h1">동방 한국어 위키</Heading>
-        <p style={{ fontSize: "1.05rem", lineHeight: 1.7 }}>
-          동방 프로젝트의 게임·캐릭터·음악 정보를 모은 한국어 위키입니다.
+      <div className="home-hero">
+        <Heading as="h1" className="home-hero__title">
+          동방 한국어 위키
+        </Heading>
+        <p className="home-hero__sub">동방 프로젝트의 게임·캐릭터·음악 정보를 모은 한국어 위키입니다.</p>
+        <input
+          type="search"
+          className="home-search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="게임, 캐릭터, 음악 통합 검색... (예: 레이무, Th13, 신령묘)"
+          aria-label="통합 검색"
+        />
+        <p className="home-search-hint">
+          게임 {siteData.games.length} · 캐릭터 {siteData.characters.length}명 · 음악 {siteData.albums.length} — 검색은
+          아래 섹션과 캐릭터 A-Z 인덱스를 동시에 필터링합니다.
         </p>
+      </div>
 
-        {/* 검색 + 뷰 토글 */}
-        <div
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            gap: "0.75rem",
-            alignItems: "center",
-            margin: "1.5rem 0",
-          }}
-        >
-          <input
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="게임·캐릭터·앨범 검색 (예: 레이무)"
-            style={{
-              flex: "1 1 260px",
-              padding: "0.5rem 0.75rem",
-              fontSize: "1rem",
-              border: "1px solid var(--ifm-color-emphasis-400)",
-              borderRadius: 6,
-            }}
-          />
-          <button onClick={() => setView("genre")} style={toggleBtn(view === "genre")}>
+      <main style={{ padding: "2rem", maxWidth: 1100, margin: "0 auto" }}>
+        <div className="view-toggle" role="tablist" aria-label="홈 뷰 전환">
+          <button
+            type="button"
+            role="tab"
+            aria-selected={view === "genre"}
+            className={`view-toggle__btn${view === "genre" ? " is-active" : ""}`}
+            onClick={() => setView("genre")}
+          >
             장르별
           </button>
-          <button onClick={() => setView("year")} style={toggleBtn(view === "year")}>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={view === "year"}
+            className={`view-toggle__btn${view === "year" ? " is-active" : ""}`}
+            onClick={() => setView("year")}
+          >
             연도순
           </button>
         </div>
 
-        {q && (
-          <p style={{ color: "var(--ifm-color-emphasis-600)", marginTop: "0.5rem" }}>
+        {hasQ && (
+          <p className="home-results">
             "{query}" 검색 결과: 게임 {games.length} · 캐릭터 {characters.length} · 앨범 {albums.length}
           </p>
         )}
