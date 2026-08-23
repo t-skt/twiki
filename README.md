@@ -1,62 +1,58 @@
 # twiki
 
-**Touhou Korean Wiki** — 한국어 동방 위키 (Docusaurus 기반)
+**Touhou Korean Wiki** — 한국어 동방 위키 (Docusaurus 3.x 기반 정적 사이트)
 
-[`t-skt/tdata`](https://github.com/t-skt/tdata)의 SSOT 데이터를 기반으로 생성되는 정적 사이트.
+게임·캐릭터·음악 데이터를 구조화된 정적 페이지로 렌더링한다. 홈 허브(통합 검색 + 장르별/연도순 뷰), 캐릭터 마스터(출연작 크로스링크), 게임 지도(intro 목차)로 구성된다.
 
 ## 빠른 시작
 
 ```bash
-# 사전: ~/git/tdata/ 와 ~/git/twiki/ 가 sibling 경로에 클론되어 있어야 함
-cd ~/git/twiki
 yarn install
-yarn start                    # 로컬 미리보기
+yarn start          # 로컬 미리보기 (http://localhost:3000/twiki/)
+yarn build          # 프로덕션 빌드 → build/
 ```
 
-## MDX 재생성 (콘텐츠 갱신)
+## 파생 콘텐츠 재생성
+
+홈·캐릭터 마스터·게임 지도 목차는 `scripts/build-site-data.mjs`가 상위 데이터 소스에서 도출해 생성한다.
 
 ```bash
-cd ~/git/tdata
-python scripts/generate.py --game th06   # ../twiki/docs/ 갱신
-cd ~/git/twiki
-yarn build                                # 빌드 검증
-git add docs/ tdata.lock && git commit -m "regen: ..."
+yarn build:site-data   # static/site-data.json + docs/characters/** + intro.mdx 목차 블록 재생성
+yarn build             # prebuild가 build:site-data를 자동 실행 후 빌드
 ```
+
+생성 산출물은 전부 커밋되어 있어, 빌드만으로도 사이트가 재현된다. `yarn build`는 항상 성공한다.
 
 ## 구조
 
 ```
 twiki/
-├── docs/                # 생성 파일 (직접 편집 금지)
-├── src/components/      # 위키 전용 컴포넌트
-├── static/img/          # 이미지 에셋 (twiki가 owner)
-├── tdata.lock           # tdata commit SHA + schema version
-└── .github/workflows/   # node 22 + yarn build + Pages 배포
+├── docs/                     # 콘텐츠 (mdx)
+│   ├── shooting|fighting|side/   # 게임별 (intro·dialogue·spell-cards·music·characters)
+│   ├── characters/             # 캐릭터 마스터 (build:site-data 생성)
+│   └── music/                  # 앨범
+├── scripts/build-site-data.mjs   # 파생 콘텐츠 빌더
+├── src/components/           # 위키 전용 컴포넌트
+├── static/site-data.json     # 홈/마스터용 도출 데이터 (커밋)
+├── sidebars.ts               # 게임별 + 캐릭터 sidebar
+└── .github/workflows/        # node 22 + yarn build + Pages 배포
 ```
+
+## 사이트 계층
+
+| 층 | 내용 | 위치 |
+|----|------|------|
+| L0 | 홈 허브 — 통합 검색 + [장르별\|연도순] 토글 + 카드 | `/` |
+| L1 | 캐릭터 마스터 — 출연작 크로스링크 | `/docs/characters/<id>` |
+| L2 | 게임 지도 — intro 목차(스토리/스펠카드/OST/캐릭터) | `/docs/<장르>/<게임>/intro` |
+| L3 | 심화 페이지 — 대사·스펠카드·음악·프로필 | `/docs/<장르>/<게임>/…` |
+| L4 | 음악 — 앨범 | `/docs/music/<slug>` |
 
 ## 운영 가이드
 
-- 운영 매뉴얼은 [`CLAUDE.md`](./CLAUDE.md) 참조
-- `docs/**/*.mdx` 직접 편집 금지 — `tdata/scripts/generate.py`가 덮어쓴다
+- 상세 운영 매뉴얼(데이터 갱신 절차, 커밋 규칙, 훅 동작)은 [`CLAUDE.md`](./CLAUDE.md) 참조
+- `docs/**/*.mdx` 직접 편집은 자제 — 대부분 파생 산출물
 - 인터랙티브 장난감/게임은 [`t-skt/tvirus`](https://github.com/t-skt/tvirus)에 있음
-
-## 개발 워크플로
-
-새 게임/캐릭터 추가:
-1. `cd ~/git/tdata && python -m scripts.generate --game th06`
-2. `~/git/twiki/`에 자동 생성된 docs/ + tdata.lock을 함께 staged
-3. pre-commit hook이 docs/ ↔ tdata.lock 일관성 검증
-4. `git commit -m "..."` 통과 후 push
-
-| 케이스 | staged 내용 | 결과 |
-|--------|------------|------|
-| (a) | `docs/{shooting,fighting,side}/` 만 | 차단 |
-| (b) | `docs/_manual/` 만 | 통과 |
-| (c) | `tdata.lock` 만 | 차단 |
-| (d) | generated docs + tdata.lock | 통과 |
-| (e) | manual docs + tdata.lock | 통과 |
-
-긴급 hotfix 시 `git commit --no-verify` 사용 가능 (사용 자제).
 
 ## 라이선스
 
@@ -64,5 +60,4 @@ twiki/
 
 ## 관련 레포
 
-- 데이터 소스: [t-skt/tdata](https://github.com/t-skt/tdata)
 - 인터랙티브 장난감: [t-skt/tvirus](https://github.com/t-skt/tvirus)
